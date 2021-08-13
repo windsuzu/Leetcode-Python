@@ -64,7 +64,7 @@ The key features of **LeetCode Python**:
 
 ### Easy
 
-| Problem                                                                                | Category                                    | My Solution                                           | Full Code                                          |
+| Problem                                                                                | Category                                    | My Solution                                        | Full Code                                          |
 | -------------------------------------------------------------------------------------- | ------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
 | [Contains Duplicate][p-contains-duplicate]                                             | `Arrays`                                    | [Link][d-contains-duplicate]                       | [Link][c-contains-duplicate]                       |
 | [Missing Number][p-missing-number]                                                     | `Arrays`                                    | [Link][d-missing-number]                           | [Link][c-missing-number]                           |
@@ -76,7 +76,7 @@ The key features of **LeetCode Python**:
 | [Range Sum Query - Immutable][p-range-sum-query]                                       | `Dynamic Programming`                       | [Link][d-range-sum-query]                          | [Link][c-range-sum-query]                          |
 | [Counting Bits][p-counting-bits]                                                       | `Dynamic Programming` \| `Bit Manipulation` | [Link][d-counting-bits]                            | [Link][c-counting-bits]                            |
 | [Linked List Cycle][p-linked-list-cycle]                                               | `Fast & Slow Pointers`                      | [Link][d-linked-list-cycle]                        | [Link][c-linked-list-cycle]                        |
-
+| [Middle of the Linked List][p-middle-of-the-linked-list]                               | `Fast & Slow Pointers`                      | [Link][d-middle-of-the-linked-list]                | [Link][c-middle-of-the-linked-list]                |
 
 ---
 
@@ -131,6 +131,7 @@ Reach out to the maintainer at one of the following places:
 [p-range-sum-query]: https://leetcode.com/problems/range-sum-query-immutable/
 [p-counting-bits]: https://leetcode.com/problems/counting-bits/
 [p-linked-list-cycle]: https://leetcode.com/problems/linked-list-cycle/
+[p-middle-of-the-linked-list]: https://leetcode.com/problems/middle-of-the-linked-list/
 
 
 <!-- Discuss Ref -->
@@ -144,6 +145,7 @@ Reach out to the maintainer at one of the following places:
 [d-range-sum-query]: https://leetcode.com/problems/range-sum-query-immutable/discuss/1394672/Python-3-or-Cumulative-Sum
 [d-counting-bits]: https://leetcode.com/problems/counting-bits/discuss/1396851/Python-3-or-99-Faster-or-91-Less-Memory
 [d-linked-list-cycle]: https://leetcode.com/problems/linked-list-cycle/discuss/1398839/Python-3-or-Assign-numbers
+[d-middle-of-the-linked-list]: https://leetcode.com/problems/middle-of-the-linked-list/discuss/1400749/Python-3-or-Two-Pointers
 
 
 <!-- Code Ref -->
@@ -157,3 +159,4 @@ Reach out to the maintainer at one of the following places:
 [c-range-sum-query]: easy/range_sum_query-immutable.py
 [c-counting-bits]: easy/counting-bits.py
 [c-linked-list-cycle]: easy/linked-list-cycle.py
+[c-middle-of-the-linked-list]: easy/middle-of-the-linked-list.py
