@@ -77,6 +77,8 @@ The key features of **LeetCode Python**:
 | [Counting Bits][p-counting-bits]                                                       | `Dynamic Programming` \| `Bit Manipulation` | [Link][d-counting-bits]                            | [Link][c-counting-bits]                            |
 | [Linked List Cycle][p-linked-list-cycle]                                               | `Fast & Slow Pointers`                      | [Link][d-linked-list-cycle]                        | [Link][c-linked-list-cycle]                        |
 | [Middle of the Linked List][p-middle-of-the-linked-list]                               | `Fast & Slow Pointers`                      | [Link][d-middle-of-the-linked-list]                | [Link][c-middle-of-the-linked-list]                |
+| [Palindrome Linked List][p-palindrome-linked-list]                                     | `Fast & Slow Pointers`                      | [Link][d-palindrome-linked-list]                   | [Link][c-palindrome-linked-list]                   |
+
 
 ---
 
@@ -132,6 +134,7 @@ Reach out to the maintainer at one of the following places:
 [p-counting-bits]: https://leetcode.com/problems/counting-bits/
 [p-linked-list-cycle]: https://leetcode.com/problems/linked-list-cycle/
 [p-middle-of-the-linked-list]: https://leetcode.com/problems/middle-of-the-linked-list/
+[p-palindrome-linked-list]: https://leetcode.com/problems/palindrome-linked-list/
 
 
 <!-- Discuss Ref -->
@@ -146,6 +149,7 @@ Reach out to the maintainer at one of the following places:
 [d-counting-bits]: https://leetcode.com/problems/counting-bits/discuss/1396851/Python-3-or-99-Faster-or-91-Less-Memory
 [d-linked-list-cycle]: https://leetcode.com/problems/linked-list-cycle/discuss/1398839/Python-3-or-Assign-numbers
 [d-middle-of-the-linked-list]: https://leetcode.com/problems/middle-of-the-linked-list/discuss/1400749/Python-3-or-Two-Pointers
+[d-palindrome-linked-list]: https://leetcode.com/problems/palindrome-linked-list/discuss/1402628/Python-3-or-Traverse-but-with-Generator-and-List-Comprehension
 
 
 <!-- Code Ref -->
@@ -160,3 +164,4 @@ Reach out to the maintainer at one of the following places:
 [c-counting-bits]: easy/counting-bits.py
 [c-linked-list-cycle]: easy/linked-list-cycle.py
 [c-middle-of-the-linked-list]: easy/middle-of-the-linked-list.py
+[c-palindrome-linked-list]: easy/palindrome-linked-list.py
