@@ -78,6 +78,7 @@ The key features of **LeetCode Python**:
 | [Linked List Cycle][p-linked-list-cycle]                                               | `Fast & Slow Pointers`                      | [Link][d-linked-list-cycle]                        | [Link][c-linked-list-cycle]                        |
 | [Middle of the Linked List][p-middle-of-the-linked-list]                               | `Fast & Slow Pointers`                      | [Link][d-middle-of-the-linked-list]                | [Link][c-middle-of-the-linked-list]                |
 | [Palindrome Linked List][p-palindrome-linked-list]                                     | `Fast & Slow Pointers`                      | [Link][d-palindrome-linked-list]                   | [Link][c-palindrome-linked-list]                   |
+| [Remove Linked List Elements][p-remove-linked-list-elements]                           | `Fast & Slow Pointers`                      | [Link][d-remove-linked-list-elements]              | [Link][c-remove-linked-list-elements]              |
 
 
 ---
@@ -135,6 +136,7 @@ Reach out to the maintainer at one of the following places:
 [p-linked-list-cycle]: https://leetcode.com/problems/linked-list-cycle/
 [p-middle-of-the-linked-list]: https://leetcode.com/problems/middle-of-the-linked-list/
 [p-palindrome-linked-list]: https://leetcode.com/problems/palindrome-linked-list/
+[p-remove-linked-list-elements]: https://leetcode.com/problems/remove-linked-list-elements/
 
 
 <!-- Discuss Ref -->
@@ -150,6 +152,7 @@ Reach out to the maintainer at one of the following places:
 [d-linked-list-cycle]: https://leetcode.com/problems/linked-list-cycle/discuss/1398839/Python-3-or-Assign-numbers
 [d-middle-of-the-linked-list]: https://leetcode.com/problems/middle-of-the-linked-list/discuss/1400749/Python-3-or-Two-Pointers
 [d-palindrome-linked-list]: https://leetcode.com/problems/palindrome-linked-list/discuss/1402628/Python-3-or-Traverse-but-with-Generator-and-List-Comprehension
+[d-remove-linked-list-elements]: https://leetcode.com/problems/remove-linked-list-elements/discuss/1404517/Python-3
 
 
 <!-- Code Ref -->
@@ -165,3 +168,4 @@ Reach out to the maintainer at one of the following places:
 [c-linked-list-cycle]: easy/linked-list-cycle.py
 [c-middle-of-the-linked-list]: easy/middle-of-the-linked-list.py
 [c-palindrome-linked-list]: easy/palindrome-linked-list.py
+[c-remove-linked-list-elements]: easy/remove-linked-list-elements.py
