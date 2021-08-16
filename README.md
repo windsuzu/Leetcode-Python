@@ -79,6 +79,7 @@ The key features of **LeetCode Python**:
 | [Middle of the Linked List][p-middle-of-the-linked-list]                               | `Fast & Slow Pointers`                      | [Link][d-middle-of-the-linked-list]                | [Link][c-middle-of-the-linked-list]                |
 | [Palindrome Linked List][p-palindrome-linked-list]                                     | `Fast & Slow Pointers`                      | [Link][d-palindrome-linked-list]                   | [Link][c-palindrome-linked-list]                   |
 | [Remove Linked List Elements][p-remove-linked-list-elements]                           | `Fast & Slow Pointers`                      | [Link][d-remove-linked-list-elements]              | [Link][c-remove-linked-list-elements]              |
+| [Remove Duplicates from Sorted List][p-remove-duplicates-from-sorted-list]             | `Fast & Slow Pointers`                      | [Link][d-remove-duplicates-from-sorted-list]       | [Link][c-remove-duplicates-from-sorted-list]       |
 
 
 ---
@@ -137,7 +138,7 @@ Reach out to the maintainer at one of the following places:
 [p-middle-of-the-linked-list]: https://leetcode.com/problems/middle-of-the-linked-list/
 [p-palindrome-linked-list]: https://leetcode.com/problems/palindrome-linked-list/
 [p-remove-linked-list-elements]: https://leetcode.com/problems/remove-linked-list-elements/
-
+[p-remove-duplicates-from-sorted-list]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -153,7 +154,7 @@ Reach out to the maintainer at one of the following places:
 [d-middle-of-the-linked-list]: https://leetcode.com/problems/middle-of-the-linked-list/discuss/1400749/Python-3-or-Two-Pointers
 [d-palindrome-linked-list]: https://leetcode.com/problems/palindrome-linked-list/discuss/1402628/Python-3-or-Traverse-but-with-Generator-and-List-Comprehension
 [d-remove-linked-list-elements]: https://leetcode.com/problems/remove-linked-list-elements/discuss/1404517/Python-3
-
+[d-remove-duplicates-from-sorted-list]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/discuss/1406407/Python-3-or-Connect-distinct-nodes
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -169,3 +170,4 @@ Reach out to the maintainer at one of the following places:
 [c-middle-of-the-linked-list]: easy/middle-of-the-linked-list.py
 [c-palindrome-linked-list]: easy/palindrome-linked-list.py
 [c-remove-linked-list-elements]: easy/remove-linked-list-elements.py
+[c-remove-duplicates-from-sorted-list]: easy/remove-duplicates-from-sorted-list.py
