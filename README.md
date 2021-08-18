@@ -39,7 +39,6 @@
 
 ---
 
-<!-- ABOUT THE PROJECT -->
 ## About
 
 <table>
@@ -64,7 +63,7 @@ The key features of **LeetCode Python**:
 
 ### Easy
 
-| Problem                                                                                | Category                                    | My Solution                                        | Source Code                                          |
+| Problem                                                                                | Category                                    | My Solution                                        | Source Code                                        |
 | -------------------------------------------------------------------------------------- | ------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
 | [Contains Duplicate][p-contains-duplicate]                                             | `Arrays`                                    | [Link][d-contains-duplicate]                       | [Link][c-contains-duplicate]                       |
 | [Missing Number][p-missing-number]                                                     | `Arrays`                                    | [Link][d-missing-number]                           | [Link][c-missing-number]                           |
@@ -81,6 +80,7 @@ The key features of **LeetCode Python**:
 | [Remove Linked List Elements][p-remove-linked-list-elements]                           | `Fast & Slow Pointers`                      | [Link][d-remove-linked-list-elements]              | [Link][c-remove-linked-list-elements]              |
 | [Remove Duplicates from Sorted List][p-remove-duplicates-from-sorted-list]             | `Fast & Slow Pointers`                      | [Link][d-remove-duplicates-from-sorted-list]       | [Link][c-remove-duplicates-from-sorted-list]       |
 | [Reverse Linked List][p-reverse-linked-list]                                           | `In-place reversal of a linked list`        | [Link][d-reverse-linked-list]                      | [Link][c-reverse-linked-list]                      |
+| [Merge Two Sorted Lists][p-merge-two-sorted-lists]                                     | `Two Pointers`                              | [Link][d-merge-two-sorted-lists]                   | [Link][c-merge-two-sorted-lists]                   |
 
 ---
 
@@ -140,6 +140,7 @@ Reach out to the maintainer at one of the following places:
 [p-remove-linked-list-elements]: https://leetcode.com/problems/remove-linked-list-elements/
 [p-remove-duplicates-from-sorted-list]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 [p-reverse-linked-list]: https://leetcode.com/problems/reverse-linked-list/
+[p-merge-two-sorted-lists]: https://leetcode.com/problems/merge-two-sorted-lists/
 
 
 <!-- Discuss Ref -->
@@ -158,6 +159,7 @@ Reach out to the maintainer at one of the following places:
 [d-remove-linked-list-elements]: https://leetcode.com/problems/remove-linked-list-elements/discuss/1404517/Python-3
 [d-remove-duplicates-from-sorted-list]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/discuss/1406407/Python-3-or-Connect-distinct-nodes
 [d-reverse-linked-list]: https://leetcode.com/problems/reverse-linked-list/discuss/1408600/Python-3-or-Stacking-on-top
+[d-merge-two-sorted-lists]: https://leetcode.com/problems/merge-two-sorted-lists/discuss/1410592/Python-3-or-Iterative
 
 
 <!-- Code Ref -->
@@ -176,3 +178,4 @@ Reach out to the maintainer at one of the following places:
 [c-remove-linked-list-elements]: easy/remove-linked-list-elements.py
 [c-remove-duplicates-from-sorted-list]: easy/remove-duplicates-from-sorted-list.py
 [c-reverse-linked-list]: easy/reverse-linked-list.py
+[c-merge-two-sorted-lists]: easy/merge-two-sorted-lists.py
