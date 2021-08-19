@@ -81,6 +81,7 @@ The key features of **LeetCode Python**:
 | [Remove Duplicates from Sorted List][p-remove-duplicates-from-sorted-list]             | `Fast & Slow Pointers`                      | [Link][d-remove-duplicates-from-sorted-list]       | [Link][c-remove-duplicates-from-sorted-list]       |
 | [Reverse Linked List][p-reverse-linked-list]                                           | `In-place reversal of a linked list`        | [Link][d-reverse-linked-list]                      | [Link][c-reverse-linked-list]                      |
 | [Merge Two Sorted Lists][p-merge-two-sorted-lists]                                     | `Two Pointers`                              | [Link][d-merge-two-sorted-lists]                   | [Link][c-merge-two-sorted-lists]                   |
+| [Binary Search][p-binary-search]                                                       | `Binary Search`                             | [Link][d-binary-search]                            | [Link][c-binary-search]                            |
 
 ---
 
@@ -141,6 +142,7 @@ Reach out to the maintainer at one of the following places:
 [p-remove-duplicates-from-sorted-list]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 [p-reverse-linked-list]: https://leetcode.com/problems/reverse-linked-list/
 [p-merge-two-sorted-lists]: https://leetcode.com/problems/merge-two-sorted-lists/
+[p-binary-search]: https://leetcode.com/problems/binary-search/
 
 
 <!-- Discuss Ref -->
@@ -160,6 +162,7 @@ Reach out to the maintainer at one of the following places:
 [d-remove-duplicates-from-sorted-list]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/discuss/1406407/Python-3-or-Connect-distinct-nodes
 [d-reverse-linked-list]: https://leetcode.com/problems/reverse-linked-list/discuss/1408600/Python-3-or-Stacking-on-top
 [d-merge-two-sorted-lists]: https://leetcode.com/problems/merge-two-sorted-lists/discuss/1410592/Python-3-or-Iterative
+[d-binary-search]: https://leetcode.com/problems/binary-search/discuss/1412936/Python-3
 
 
 <!-- Code Ref -->
@@ -179,3 +182,4 @@ Reach out to the maintainer at one of the following places:
 [c-remove-duplicates-from-sorted-list]: easy/remove-duplicates-from-sorted-list.py
 [c-reverse-linked-list]: easy/reverse-linked-list.py
 [c-merge-two-sorted-lists]: easy/merge-two-sorted-lists.py
+[c-binary-search]: easy/binary-search.py
