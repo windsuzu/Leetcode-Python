@@ -82,6 +82,8 @@ The key features of **LeetCode Python**:
 | [Reverse Linked List][p-reverse-linked-list]                                           | `In-place reversal of a linked list`        | [Link][d-reverse-linked-list]                      | [Link][c-reverse-linked-list]                      |
 | [Merge Two Sorted Lists][p-merge-two-sorted-lists]                                     | `Two Pointers`                              | [Link][d-merge-two-sorted-lists]                   | [Link][c-merge-two-sorted-lists]                   |
 | [Binary Search][p-binary-search]                                                       | `Binary Search`                             | [Link][d-binary-search]                            | [Link][c-binary-search]                            |
+| [Find Smallest Letter Greater Than Target][p-find-smallest-letter-greater-than-target] | `Binary Search`                             | [Link][d-find-smallest-letter-greater-than-target] | [Link][c-find-smallest-letter-greater-than-target] |
+
 
 ---
 
@@ -143,6 +145,7 @@ Reach out to the maintainer at one of the following places:
 [p-reverse-linked-list]: https://leetcode.com/problems/reverse-linked-list/
 [p-merge-two-sorted-lists]: https://leetcode.com/problems/merge-two-sorted-lists/
 [p-binary-search]: https://leetcode.com/problems/binary-search/
+[p-find-smallest-letter-greater-than-target]: https://leetcode.com/problems/find-smallest-letter-greater-than-target
 
 
 <!-- Discuss Ref -->
@@ -163,6 +166,7 @@ Reach out to the maintainer at one of the following places:
 [d-reverse-linked-list]: https://leetcode.com/problems/reverse-linked-list/discuss/1408600/Python-3-or-Stacking-on-top
 [d-merge-two-sorted-lists]: https://leetcode.com/problems/merge-two-sorted-lists/discuss/1410592/Python-3-or-Iterative
 [d-binary-search]: https://leetcode.com/problems/binary-search/discuss/1412936/Python-3
+[d-find-smallest-letter-greater-than-target]: https://leetcode.com/problems/find-smallest-letter-greater-than-target/discuss/1415083/Python-3-or-ASCII-and-Loop
 
 
 <!-- Code Ref -->
@@ -183,3 +187,4 @@ Reach out to the maintainer at one of the following places:
 [c-reverse-linked-list]: easy/reverse-linked-list.py
 [c-merge-two-sorted-lists]: easy/merge-two-sorted-lists.py
 [c-binary-search]: easy/binary-search.py
+[c-find-smallest-letter-greater-than-target]: easy/find-smallest-letter-greater-than-target.py
