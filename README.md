@@ -83,7 +83,7 @@ The key features of **LeetCode Python**:
 | [Merge Two Sorted Lists][p-merge-two-sorted-lists]                                     | `Two Pointers`                              | [Link][d-merge-two-sorted-lists]                   | [Link][c-merge-two-sorted-lists]                   |
 | [Binary Search][p-binary-search]                                                       | `Binary Search`                             | [Link][d-binary-search]                            | [Link][c-binary-search]                            |
 | [Find Smallest Letter Greater Than Target][p-find-smallest-letter-greater-than-target] | `Binary Search`                             | [Link][d-find-smallest-letter-greater-than-target] | [Link][c-find-smallest-letter-greater-than-target] |
-
+| [Peak Index in a Mountain Array][p-peak-index-in-a-mountain-array]                     | `Binary Search`                             | [Link][d-peak-index-in-a-mountain-array]           | [Link][c-peak-index-in-a-mountain-array]           |
 
 ---
 
@@ -146,6 +146,7 @@ Reach out to the maintainer at one of the following places:
 [p-merge-two-sorted-lists]: https://leetcode.com/problems/merge-two-sorted-lists/
 [p-binary-search]: https://leetcode.com/problems/binary-search/
 [p-find-smallest-letter-greater-than-target]: https://leetcode.com/problems/find-smallest-letter-greater-than-target
+[p-peak-index-in-a-mountain-array]: https://leetcode.com/problems/peak-index-in-a-mountain-array/
 
 
 <!-- Discuss Ref -->
@@ -167,6 +168,7 @@ Reach out to the maintainer at one of the following places:
 [d-merge-two-sorted-lists]: https://leetcode.com/problems/merge-two-sorted-lists/discuss/1410592/Python-3-or-Iterative
 [d-binary-search]: https://leetcode.com/problems/binary-search/discuss/1412936/Python-3
 [d-find-smallest-letter-greater-than-target]: https://leetcode.com/problems/find-smallest-letter-greater-than-target/discuss/1415083/Python-3-or-ASCII-and-Loop
+[d-peak-index-in-a-mountain-array]: https://leetcode.com/problems/peak-index-in-a-mountain-array/discuss/1417139/Python-3-or-Binary-Search
 
 
 <!-- Code Ref -->
@@ -188,3 +190,4 @@ Reach out to the maintainer at one of the following places:
 [c-merge-two-sorted-lists]: easy/merge-two-sorted-lists.py
 [c-binary-search]: easy/binary-search.py
 [c-find-smallest-letter-greater-than-target]: easy/find-smallest-letter-greater-than-target.py
+[c-peak-index-in-a-mountain-array]: easy/peak-index-in-a-mountain-array.py
