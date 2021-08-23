@@ -84,7 +84,8 @@ The key features of **LeetCode Python**:
 | [Binary Search][p-binary-search]                                                       | `Binary Search`                             | [Link][d-binary-search]                            | [Link][c-binary-search]                            |
 | [Find Smallest Letter Greater Than Target][p-find-smallest-letter-greater-than-target] | `Binary Search`                             | [Link][d-find-smallest-letter-greater-than-target] | [Link][c-find-smallest-letter-greater-than-target] |
 | [Peak Index in a Mountain Array][p-peak-index-in-a-mountain-array]                     | `Binary Search`                             | [Link][d-peak-index-in-a-mountain-array]           | [Link][c-peak-index-in-a-mountain-array]           |
-| [Average of Levels in Binary Tree][p-average-of-levels-in-binary-tree]                 | `BFS`                             | [Link][d-average-of-levels-in-binary-tree]         | [Link][c-average-of-levels-in-binary-tree]         |
+| [Average of Levels in Binary Tree][p-average-of-levels-in-binary-tree]                 | `BFS`                                       | [Link][d-average-of-levels-in-binary-tree]         | [Link][c-average-of-levels-in-binary-tree]         |
+| [Minimum Depth of Binary Tree][p-minimum-depth-of-binary-tree]                         | `BFS` \| `DFS`                              | [Link][d-minimum-depth-of-binary-tree]             | [Link][c-minimum-depth-of-binary-tree]             |
 
 ---
 
@@ -149,6 +150,7 @@ Reach out to the maintainer at one of the following places:
 [p-find-smallest-letter-greater-than-target]: https://leetcode.com/problems/find-smallest-letter-greater-than-target
 [p-peak-index-in-a-mountain-array]: https://leetcode.com/problems/peak-index-in-a-mountain-array/
 [p-average-of-levels-in-binary-tree]: https://leetcode.com/problems/average-of-levels-in-binary-tree/
+[p-minimum-depth-of-binary-tree]: https://leetcode.com/problems/minimum-depth-of-binary-tree/
 
 
 <!-- Discuss Ref -->
@@ -172,6 +174,8 @@ Reach out to the maintainer at one of the following places:
 [d-find-smallest-letter-greater-than-target]: https://leetcode.com/problems/find-smallest-letter-greater-than-target/discuss/1415083/Python-3-or-ASCII-and-Loop
 [d-peak-index-in-a-mountain-array]: https://leetcode.com/problems/peak-index-in-a-mountain-array/discuss/1417139/Python-3-or-Binary-Search
 [d-average-of-levels-in-binary-tree]: https://leetcode.com/problems/average-of-levels-in-binary-tree/discuss/1419598/Python-3-or-BFS-or-99.97-faster
+[d-minimum-depth-of-binary-tree]: https://leetcode.com/problems/minimum-depth-of-binary-tree/discuss/1421461/Python-3-or-BFS-or-Iterative
+
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -194,3 +198,4 @@ Reach out to the maintainer at one of the following places:
 [c-find-smallest-letter-greater-than-target]: easy/find-smallest-letter-greater-than-target.py
 [c-peak-index-in-a-mountain-array]: easy/peak-index-in-a-mountain-array.py
 [c-average-of-levels-in-binary-tree]: easy/average-of-levels-in-binary-tree.py
+[c-minimum-depth-of-binary-tree]: easy/minimum-depth-of-binary-tree.py
