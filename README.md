@@ -87,6 +87,7 @@ The key features of **LeetCode Python**:
 | [Average of Levels in Binary Tree][p-average-of-levels-in-binary-tree]                 | `BFS` \| `DFS`                              | [Link][d-average-of-levels-in-binary-tree]         | [Link][c-average-of-levels-in-binary-tree]         |
 | [Minimum Depth of Binary Tree][p-minimum-depth-of-binary-tree]                         | `BFS` \| `DFS`                              | [Link][d-minimum-depth-of-binary-tree]             | [Link][c-minimum-depth-of-binary-tree]             |
 | [Same Tree][p-same-tree]                                                               | `BFS` \| `DFS`                              | [Link][d-same-tree]                                | [Link][c-same-tree]                                |
+| [Path Sum][p-path-sum]                                                                 | `BFS` \| `DFS`                              | [Link][d-path-sum]                                 | [Link][c-path-sum]                                 |
 
 ---
 
@@ -153,6 +154,7 @@ Reach out to the maintainer at one of the following places:
 [p-average-of-levels-in-binary-tree]: https://leetcode.com/problems/average-of-levels-in-binary-tree/
 [p-minimum-depth-of-binary-tree]: https://leetcode.com/problems/minimum-depth-of-binary-tree/
 [p-same-tree]: https://leetcode.com/problems/same-tree/
+[p-path-sum]: https://leetcode.com/problems/path-sum/
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -177,6 +179,7 @@ Reach out to the maintainer at one of the following places:
 [d-average-of-levels-in-binary-tree]: https://leetcode.com/problems/average-of-levels-in-binary-tree/discuss/1419598/Python-3-or-BFS-or-99.97-faster
 [d-minimum-depth-of-binary-tree]: https://leetcode.com/problems/minimum-depth-of-binary-tree/discuss/1421461/Python-3-or-BFS-or-Iterative
 [d-same-tree]: https://leetcode.com/problems/same-tree/discuss/1422581/Python-3-or-Iterative-or-BFS
+[d-path-sum]: https://leetcode.com/problems/path-sum/discuss/1425031/Python-3-or-BFS-or-Iterative
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -201,3 +204,4 @@ Reach out to the maintainer at one of the following places:
 [c-average-of-levels-in-binary-tree]: easy/average-of-levels-in-binary-tree.py
 [c-minimum-depth-of-binary-tree]: easy/minimum-depth-of-binary-tree.py
 [c-same-tree]: easy/same-tree.py
+[c-path-sum]: easy/path-sum.py
