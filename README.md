@@ -89,6 +89,7 @@ The key features of **LeetCode Python**:
 | [Same Tree][p-same-tree]                                                               | `BFS` \| `DFS`                              | [Link][d-same-tree]                                | [Link][c-same-tree]                                |
 | [Path Sum][p-path-sum]                                                                 | `BFS` \| `DFS`                              | [Link][d-path-sum]                                 | [Link][c-path-sum]                                 |
 | [Diameter of Binary Tree][p-diameter-of-binary-tree]                                   | `DFS`                                       | [Link][d-diameter-of-binary-tree]                  | [Link][c-diameter-of-binary-tree]                  |
+| [Merge Two Binary Trees][p-merge-two-binary-trees]                                     | `DFS`                                       | [Link][d-merge-two-binary-trees]                   | [Link][c-merge-two-binary-trees]                   |
 
 ---
 
@@ -157,6 +158,8 @@ Reach out to the maintainer at one of the following places:
 [p-same-tree]: https://leetcode.com/problems/same-tree/
 [p-path-sum]: https://leetcode.com/problems/path-sum/
 [p-diameter-of-binary-tree]: https://leetcode.com/problems/diameter-of-binary-tree/
+[p-merge-two-binary-trees]: https://leetcode.com/problems/merge-two-binary-trees/
+
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -183,6 +186,8 @@ Reach out to the maintainer at one of the following places:
 [d-same-tree]: https://leetcode.com/problems/same-tree/discuss/1422581/Python-3-or-Iterative-or-BFS
 [d-path-sum]: https://leetcode.com/problems/path-sum/discuss/1425031/Python-3-or-BFS-or-Iterative
 [d-diameter-of-binary-tree]: https://leetcode.com/problems/diameter-of-binary-tree/discuss/1427361/Python-3-or-DFS
+[d-merge-two-binary-trees]: https://leetcode.com/problems/merge-two-binary-trees/discuss/1434844/Python-3-or-DFS
+
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -209,3 +214,4 @@ Reach out to the maintainer at one of the following places:
 [c-same-tree]: easy/same-tree.py
 [c-path-sum]: easy/path-sum.py
 [c-diameter-of-binary-tree]: easy/diameter-of-binary-tree.py
+[c-merge-two-binary-trees]: easy/merge-two-binary-trees.py
