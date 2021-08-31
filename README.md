@@ -90,6 +90,7 @@ The key features of **LeetCode Python**:
 | [Path Sum][p-path-sum]                                                                 | `BFS` \| `DFS`                              | [Link][d-path-sum]                                 | [Link][c-path-sum]                                 |
 | [Diameter of Binary Tree][p-diameter-of-binary-tree]                                   | `DFS`                                       | [Link][d-diameter-of-binary-tree]                  | [Link][c-diameter-of-binary-tree]                  |
 | [Merge Two Binary Trees][p-merge-two-binary-trees]                                     | `DFS`                                       | [Link][d-merge-two-binary-trees]                   | [Link][c-merge-two-binary-trees]                   |
+| [Maximum Depth of Binary Tree][p-maximum-depth-of-binary-tree]                         | `BFS` \| `DFS`                              | [Link][d-maximum-depth-of-binary-tree]             | [Link][c-maximum-depth-of-binary-tree]             |
 
 ---
 
@@ -159,6 +160,7 @@ Reach out to the maintainer at one of the following places:
 [p-path-sum]: https://leetcode.com/problems/path-sum/
 [p-diameter-of-binary-tree]: https://leetcode.com/problems/diameter-of-binary-tree/
 [p-merge-two-binary-trees]: https://leetcode.com/problems/merge-two-binary-trees/
+[p-maximum-depth-of-binary-tree]: https://leetcode.com/problems/maximum-depth-of-binary-tree/
 
 
 <!-- Discuss Ref -->
@@ -187,6 +189,7 @@ Reach out to the maintainer at one of the following places:
 [d-path-sum]: https://leetcode.com/problems/path-sum/discuss/1425031/Python-3-or-BFS-or-Iterative
 [d-diameter-of-binary-tree]: https://leetcode.com/problems/diameter-of-binary-tree/discuss/1427361/Python-3-or-DFS
 [d-merge-two-binary-trees]: https://leetcode.com/problems/merge-two-binary-trees/discuss/1434844/Python-3-or-DFS
+[d-maximum-depth-of-binary-tree]: https://leetcode.com/problems/maximum-depth-of-binary-tree/discuss/1436076/Python-3-or-BFS-or-No-recursive
 
 
 <!-- Code Ref -->
@@ -215,3 +218,4 @@ Reach out to the maintainer at one of the following places:
 [c-path-sum]: easy/path-sum.py
 [c-diameter-of-binary-tree]: easy/diameter-of-binary-tree.py
 [c-merge-two-binary-trees]: easy/merge-two-binary-trees.py
+[c-maximum-depth-of-binary-tree]: easy/maximum-depth-of-binary-tree.py
