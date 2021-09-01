@@ -63,34 +63,35 @@ The key features of **LeetCode Python**:
 
 ### Easy
 
-| Problem                                                                                | Category                                    | My Solution                                        | Source Code                                        |
-| -------------------------------------------------------------------------------------- | ------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
-| [Contains Duplicate][p-contains-duplicate]                                             | `Arrays`                                    | [Link][d-contains-duplicate]                       | [Link][c-contains-duplicate]                       |
-| [Missing Number][p-missing-number]                                                     | `Arrays`                                    | [Link][d-missing-number]                           | [Link][c-missing-number]                           |
-| [Find All Numbers Disappeared in an Array][p-find-all-numbers-disappeared-in-an-array] | `Arrays`                                    | [Link][d-find-all-numbers-disappeared-in-an-array] | [Link][c-find-all-numbers-disappeared-in-an-array] |
-| [Single Number][p-single-number]                                                       | `Arrays` \| `Bit Manipulation`              | [Link][d-single-number]                            | [Link][c-single-number]                            |
-| [Climbing Stairs][p-climbing-stairs]                                                   | `Dynamic Programming`                       | [Link][d-climbing-stairs]                          | [Link][c-climbing-stairs]                          |
-| [Best Time to Buy and Sell Stock][p-best-time-to-buy-and-sell-stock]                   | `Dynamic Programming`                       | [Link][d-best-time-to-buy-and-sell-stock]          | [Link][c-best-time-to-buy-and-sell-stock]          |
-| [Maximum Subarray][p-maximum-subarray]                                                 | `Dynamic Programming`                       | [Link][d-maximum-subarray]                         | [Link][c-maximum-subarray]                         |
-| [Range Sum Query - Immutable][p-range-sum-query]                                       | `Dynamic Programming`                       | [Link][d-range-sum-query]                          | [Link][c-range-sum-query]                          |
-| [Counting Bits][p-counting-bits]                                                       | `Dynamic Programming` \| `Bit Manipulation` | [Link][d-counting-bits]                            | [Link][c-counting-bits]                            |
-| [Linked List Cycle][p-linked-list-cycle]                                               | `Fast & Slow Pointers`                      | [Link][d-linked-list-cycle]                        | [Link][c-linked-list-cycle]                        |
-| [Middle of the Linked List][p-middle-of-the-linked-list]                               | `Fast & Slow Pointers`                      | [Link][d-middle-of-the-linked-list]                | [Link][c-middle-of-the-linked-list]                |
-| [Palindrome Linked List][p-palindrome-linked-list]                                     | `Fast & Slow Pointers`                      | [Link][d-palindrome-linked-list]                   | [Link][c-palindrome-linked-list]                   |
-| [Remove Linked List Elements][p-remove-linked-list-elements]                           | `Fast & Slow Pointers`                      | [Link][d-remove-linked-list-elements]              | [Link][c-remove-linked-list-elements]              |
-| [Remove Duplicates from Sorted List][p-remove-duplicates-from-sorted-list]             | `Fast & Slow Pointers`                      | [Link][d-remove-duplicates-from-sorted-list]       | [Link][c-remove-duplicates-from-sorted-list]       |
-| [Reverse Linked List][p-reverse-linked-list]                                           | `In-place reversal of a linked list`        | [Link][d-reverse-linked-list]                      | [Link][c-reverse-linked-list]                      |
-| [Merge Two Sorted Lists][p-merge-two-sorted-lists]                                     | `Two Pointers`                              | [Link][d-merge-two-sorted-lists]                   | [Link][c-merge-two-sorted-lists]                   |
-| [Binary Search][p-binary-search]                                                       | `Binary Search`                             | [Link][d-binary-search]                            | [Link][c-binary-search]                            |
-| [Find Smallest Letter Greater Than Target][p-find-smallest-letter-greater-than-target] | `Binary Search`                             | [Link][d-find-smallest-letter-greater-than-target] | [Link][c-find-smallest-letter-greater-than-target] |
-| [Peak Index in a Mountain Array][p-peak-index-in-a-mountain-array]                     | `Binary Search`                             | [Link][d-peak-index-in-a-mountain-array]           | [Link][c-peak-index-in-a-mountain-array]           |
-| [Average of Levels in Binary Tree][p-average-of-levels-in-binary-tree]                 | `BFS` \| `DFS`                              | [Link][d-average-of-levels-in-binary-tree]         | [Link][c-average-of-levels-in-binary-tree]         |
-| [Minimum Depth of Binary Tree][p-minimum-depth-of-binary-tree]                         | `BFS` \| `DFS`                              | [Link][d-minimum-depth-of-binary-tree]             | [Link][c-minimum-depth-of-binary-tree]             |
-| [Same Tree][p-same-tree]                                                               | `BFS` \| `DFS`                              | [Link][d-same-tree]                                | [Link][c-same-tree]                                |
-| [Path Sum][p-path-sum]                                                                 | `BFS` \| `DFS`                              | [Link][d-path-sum]                                 | [Link][c-path-sum]                                 |
-| [Diameter of Binary Tree][p-diameter-of-binary-tree]                                   | `DFS`                                       | [Link][d-diameter-of-binary-tree]                  | [Link][c-diameter-of-binary-tree]                  |
-| [Merge Two Binary Trees][p-merge-two-binary-trees]                                     | `DFS`                                       | [Link][d-merge-two-binary-trees]                   | [Link][c-merge-two-binary-trees]                   |
-| [Maximum Depth of Binary Tree][p-maximum-depth-of-binary-tree]                         | `BFS` \| `DFS`                              | [Link][d-maximum-depth-of-binary-tree]             | [Link][c-maximum-depth-of-binary-tree]             |
+| Problem                                                                                            | Category                                    | My Solution                                              | Source Code                                              |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
+| [Contains Duplicate][p-contains-duplicate]                                                         | `Arrays`                                    | [Link][d-contains-duplicate]                             | [Link][c-contains-duplicate]                             |
+| [Missing Number][p-missing-number]                                                                 | `Arrays`                                    | [Link][d-missing-number]                                 | [Link][c-missing-number]                                 |
+| [Find All Numbers Disappeared in an Array][p-find-all-numbers-disappeared-in-an-array]             | `Arrays`                                    | [Link][d-find-all-numbers-disappeared-in-an-array]       | [Link][c-find-all-numbers-disappeared-in-an-array]       |
+| [Single Number][p-single-number]                                                                   | `Arrays` \| `Bit Manipulation`              | [Link][d-single-number]                                  | [Link][c-single-number]                                  |
+| [Climbing Stairs][p-climbing-stairs]                                                               | `Dynamic Programming`                       | [Link][d-climbing-stairs]                                | [Link][c-climbing-stairs]                                |
+| [Best Time to Buy and Sell Stock][p-best-time-to-buy-and-sell-stock]                               | `Dynamic Programming`                       | [Link][d-best-time-to-buy-and-sell-stock]                | [Link][c-best-time-to-buy-and-sell-stock]                |
+| [Maximum Subarray][p-maximum-subarray]                                                             | `Dynamic Programming`                       | [Link][d-maximum-subarray]                               | [Link][c-maximum-subarray]                               |
+| [Range Sum Query - Immutable][p-range-sum-query]                                                   | `Dynamic Programming`                       | [Link][d-range-sum-query]                                | [Link][c-range-sum-query]                                |
+| [Counting Bits][p-counting-bits]                                                                   | `Dynamic Programming` \| `Bit Manipulation` | [Link][d-counting-bits]                                  | [Link][c-counting-bits]                                  |
+| [Linked List Cycle][p-linked-list-cycle]                                                           | `Fast & Slow Pointers`                      | [Link][d-linked-list-cycle]                              | [Link][c-linked-list-cycle]                              |
+| [Middle of the Linked List][p-middle-of-the-linked-list]                                           | `Fast & Slow Pointers`                      | [Link][d-middle-of-the-linked-list]                      | [Link][c-middle-of-the-linked-list]                      |
+| [Palindrome Linked List][p-palindrome-linked-list]                                                 | `Fast & Slow Pointers`                      | [Link][d-palindrome-linked-list]                         | [Link][c-palindrome-linked-list]                         |
+| [Remove Linked List Elements][p-remove-linked-list-elements]                                       | `Fast & Slow Pointers`                      | [Link][d-remove-linked-list-elements]                    | [Link][c-remove-linked-list-elements]                    |
+| [Remove Duplicates from Sorted List][p-remove-duplicates-from-sorted-list]                         | `Fast & Slow Pointers`                      | [Link][d-remove-duplicates-from-sorted-list]             | [Link][c-remove-duplicates-from-sorted-list]             |
+| [Reverse Linked List][p-reverse-linked-list]                                                       | `In-place reversal of a linked list`        | [Link][d-reverse-linked-list]                            | [Link][c-reverse-linked-list]                            |
+| [Merge Two Sorted Lists][p-merge-two-sorted-lists]                                                 | `Two Pointers`                              | [Link][d-merge-two-sorted-lists]                         | [Link][c-merge-two-sorted-lists]                         |
+| [Binary Search][p-binary-search]                                                                   | `Binary Search`                             | [Link][d-binary-search]                                  | [Link][c-binary-search]                                  |
+| [Find Smallest Letter Greater Than Target][p-find-smallest-letter-greater-than-target]             | `Binary Search`                             | [Link][d-find-smallest-letter-greater-than-target]       | [Link][c-find-smallest-letter-greater-than-target]       |
+| [Peak Index in a Mountain Array][p-peak-index-in-a-mountain-array]                                 | `Binary Search`                             | [Link][d-peak-index-in-a-mountain-array]                 | [Link][c-peak-index-in-a-mountain-array]                 |
+| [Average of Levels in Binary Tree][p-average-of-levels-in-binary-tree]                             | `BFS` \| `DFS`                              | [Link][d-average-of-levels-in-binary-tree]               | [Link][c-average-of-levels-in-binary-tree]               |
+| [Minimum Depth of Binary Tree][p-minimum-depth-of-binary-tree]                                     | `BFS` \| `DFS`                              | [Link][d-minimum-depth-of-binary-tree]                   | [Link][c-minimum-depth-of-binary-tree]                   |
+| [Same Tree][p-same-tree]                                                                           | `BFS` \| `DFS`                              | [Link][d-same-tree]                                      | [Link][c-same-tree]                                      |
+| [Path Sum][p-path-sum]                                                                             | `BFS` \| `DFS`                              | [Link][d-path-sum]                                       | [Link][c-path-sum]                                       |
+| [Diameter of Binary Tree][p-diameter-of-binary-tree]                                               | `DFS`                                       | [Link][d-diameter-of-binary-tree]                        | [Link][c-diameter-of-binary-tree]                        |
+| [Merge Two Binary Trees][p-merge-two-binary-trees]                                                 | `DFS`                                       | [Link][d-merge-two-binary-trees]                         | [Link][c-merge-two-binary-trees]                         |
+| [Maximum Depth of Binary Tree][p-maximum-depth-of-binary-tree]                                     | `BFS` \| `DFS`                              | [Link][d-maximum-depth-of-binary-tree]                   | [Link][c-maximum-depth-of-binary-tree]                   |
+| [Lowest Common Ancestor of a Binary Search Tree][p-lowest-common-ancestor-of-a-binary-search-tree] | `DFS`                                       | [Link][d-lowest-common-ancestor-of-a-binary-search-tree] | [Link][c-lowest-common-ancestor-of-a-binary-search-tree] |
 
 ---
 
@@ -161,6 +162,7 @@ Reach out to the maintainer at one of the following places:
 [p-diameter-of-binary-tree]: https://leetcode.com/problems/diameter-of-binary-tree/
 [p-merge-two-binary-trees]: https://leetcode.com/problems/merge-two-binary-trees/
 [p-maximum-depth-of-binary-tree]: https://leetcode.com/problems/maximum-depth-of-binary-tree/
+[p-lowest-common-ancestor-of-a-binary-search-tree]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 
 
 <!-- Discuss Ref -->
@@ -190,6 +192,7 @@ Reach out to the maintainer at one of the following places:
 [d-diameter-of-binary-tree]: https://leetcode.com/problems/diameter-of-binary-tree/discuss/1427361/Python-3-or-DFS
 [d-merge-two-binary-trees]: https://leetcode.com/problems/merge-two-binary-trees/discuss/1434844/Python-3-or-DFS
 [d-maximum-depth-of-binary-tree]: https://leetcode.com/problems/maximum-depth-of-binary-tree/discuss/1436076/Python-3-or-BFS-or-No-recursive
+[d-lowest-common-ancestor-of-a-binary-search-tree]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/discuss/1438026/Python-3-or-Utilizing-the-feature-of-BST
 
 
 <!-- Code Ref -->
@@ -219,3 +222,4 @@ Reach out to the maintainer at one of the following places:
 [c-diameter-of-binary-tree]: easy/diameter-of-binary-tree.py
 [c-merge-two-binary-trees]: easy/merge-two-binary-trees.py
 [c-maximum-depth-of-binary-tree]: easy/maximum-depth-of-binary-tree.py
+[c-lowest-common-ancestor-of-a-binary-search-tree]: easy/lowest-common-ancestor-of-a-binary-search-tree.py
