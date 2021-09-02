@@ -92,6 +92,7 @@ The key features of **LeetCode Python**:
 | [Merge Two Binary Trees][p-merge-two-binary-trees]                                                 | `DFS`                                       | [Link][d-merge-two-binary-trees]                         | [Link][c-merge-two-binary-trees]                         |
 | [Maximum Depth of Binary Tree][p-maximum-depth-of-binary-tree]                                     | `BFS` \| `DFS`                              | [Link][d-maximum-depth-of-binary-tree]                   | [Link][c-maximum-depth-of-binary-tree]                   |
 | [Lowest Common Ancestor of a Binary Search Tree][p-lowest-common-ancestor-of-a-binary-search-tree] | `DFS`                                       | [Link][d-lowest-common-ancestor-of-a-binary-search-tree] | [Link][c-lowest-common-ancestor-of-a-binary-search-tree] |
+| [Subtree of Another Tree][p-subtree-of-another-tree]                                               | `DFS`                                       | [Link][d-subtree-of-another-tree]                        | [Link][c-subtree-of-another-tree]                        |
 
 ---
 
@@ -163,7 +164,7 @@ Reach out to the maintainer at one of the following places:
 [p-merge-two-binary-trees]: https://leetcode.com/problems/merge-two-binary-trees/
 [p-maximum-depth-of-binary-tree]: https://leetcode.com/problems/maximum-depth-of-binary-tree/
 [p-lowest-common-ancestor-of-a-binary-search-tree]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
-
+[p-subtree-of-another-tree]: https://leetcode.com/problems/subtree-of-another-tree
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -193,6 +194,7 @@ Reach out to the maintainer at one of the following places:
 [d-merge-two-binary-trees]: https://leetcode.com/problems/merge-two-binary-trees/discuss/1434844/Python-3-or-DFS
 [d-maximum-depth-of-binary-tree]: https://leetcode.com/problems/maximum-depth-of-binary-tree/discuss/1436076/Python-3-or-BFS-or-No-recursive
 [d-lowest-common-ancestor-of-a-binary-search-tree]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/discuss/1438026/Python-3-or-Utilizing-the-feature-of-BST
+[d-subtree-of-another-tree]: https://leetcode.com/problems/subtree-of-another-tree/discuss/1440266/Python-3-or-Recursive
 
 
 <!-- Code Ref -->
@@ -223,3 +225,4 @@ Reach out to the maintainer at one of the following places:
 [c-merge-two-binary-trees]: easy/merge-two-binary-trees.py
 [c-maximum-depth-of-binary-tree]: easy/maximum-depth-of-binary-tree.py
 [c-lowest-common-ancestor-of-a-binary-search-tree]: easy/lowest-common-ancestor-of-a-binary-search-tree.py
+[c-subtree-of-another-tree]: easy/subtree-of-another-tree.py
