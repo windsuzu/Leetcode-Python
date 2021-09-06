@@ -94,7 +94,8 @@ The key features of **LeetCode Python**:
 | [Lowest Common Ancestor of a Binary Search Tree][p-lowest-common-ancestor-of-a-binary-search-tree] | `DFS`                                       | [Link][d-lowest-common-ancestor-of-a-binary-search-tree] | [Link][c-lowest-common-ancestor-of-a-binary-search-tree] |
 | [Subtree of Another Tree][p-subtree-of-another-tree]                                               | `DFS`                                       | [Link][d-subtree-of-another-tree]                        | [Link][c-subtree-of-another-tree]                        |
 | [Invert Binary Tree][p-invert-binary-tree]                                                         | `DFS`                                       | [Link][d-invert-binary-tree]                             | [Link][c-invert-binary-tree]                             |
-| [Two Sum][p-two-sum]                                                                               | `Two Pointers`                                       | [Link][d-two-sum]                                        | [Link][c-two-sum]                                        |
+| [Two Sum][p-two-sum]                                                                               | `Two Pointers`                              | [Link][d-two-sum]                                        | [Link][c-two-sum]                                        |
+| [Squares of a Sorted Array][p-squares-of-a-sorted-array]                                           | `Two Pointers`                              | [Link][d-squares-of-a-sorted-array]                      | [Link][c-squares-of-a-sorted-array]                      |
 
 ---
 
@@ -169,6 +170,7 @@ Reach out to the maintainer at one of the following places:
 [p-subtree-of-another-tree]: https://leetcode.com/problems/subtree-of-another-tree
 [p-invert-binary-tree]: https://leetcode.com/problems/invert-binary-tree/
 [p-two-sum]: https://leetcode.com/problems/two-sum/
+[p-squares-of-a-sorted-array]: https://leetcode.com/problems/squares-of-a-sorted-array/
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -201,7 +203,7 @@ Reach out to the maintainer at one of the following places:
 [d-subtree-of-another-tree]: https://leetcode.com/problems/subtree-of-another-tree/discuss/1440266/Python-3-or-Recursive
 [d-invert-binary-tree]: https://leetcode.com/problems/invert-binary-tree/discuss/1441714/Python-3-or-Recursive
 [d-two-sum]: https://leetcode.com/problems/two-sum/discuss/1443400/Python-3or-Dictionary-or-O(n)
-
+[d-squares-of-a-sorted-array]: https://leetcode.com/problems/squares-of-a-sorted-array/discuss/1447790/Python-3-or-2-Methods-or-Sorted-or-Two-Pointers
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -234,3 +236,4 @@ Reach out to the maintainer at one of the following places:
 [c-subtree-of-another-tree]: easy/subtree-of-another-tree.py
 [c-invert-binary-tree]: easy/invert-binary-tree.py
 [c-two-sum]: easy/two-sum.py
+[c-squares-of-a-sorted-array]: easy/squares-of-a-sorted-array.py
