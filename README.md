@@ -30,6 +30,7 @@
 * [About](#about)
 * [Problem List](#problem-list)
   * [Easy](#easy)
+  * [Medium](#medium)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -97,6 +98,13 @@ The key features of **LeetCode Python**:
 | [Two Sum][p-two-sum]                                                                               | `Two Pointers`                              | [Link][d-two-sum]                                        | [Link][c-two-sum]                                        |
 | [Squares of a Sorted Array][p-squares-of-a-sorted-array]                                           | `Two Pointers`                              | [Link][d-squares-of-a-sorted-array]                      | [Link][c-squares-of-a-sorted-array]                      |
 | [Majority Element][p-majority-element]                                                             | `Sorting`                                   | [Link][d-majority-element]                               | [Link][c-majority-element]                               |
+
+### Medium
+
+| Problem                                                        | Category | My Solution                            | Source Code                            |
+| -------------------------------------------------------------- | -------- | -------------------------------------- | -------------------------------------- |
+| [Product of Array Except Self][p-product-of-array-except-self] | `Arrays` | [Link][d-product-of-array-except-self] | [Link][c-product-of-array-except-self] |
+
 
 ---
 
@@ -173,6 +181,7 @@ Reach out to the maintainer at one of the following places:
 [p-two-sum]: https://leetcode.com/problems/two-sum/
 [p-squares-of-a-sorted-array]: https://leetcode.com/problems/squares-of-a-sorted-array/
 [p-majority-element]: https://leetcode.com/problems/majority-element/
+[p-product-of-array-except-self]: https://leetcode.com/problems/product-of-array-except-self/
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -207,6 +216,7 @@ Reach out to the maintainer at one of the following places:
 [d-two-sum]: https://leetcode.com/problems/two-sum/discuss/1443400/Python-3or-Dictionary-or-O(n)
 [d-squares-of-a-sorted-array]: https://leetcode.com/problems/squares-of-a-sorted-array/discuss/1447790/Python-3-or-2-Methods-or-Sorted-or-Two-Pointers
 [d-majority-element]: https://leetcode.com/problems/majority-element/discuss/1451480/Python-3-or-Counter-or-One-liner
+[d-product-of-array-except-self]: https://leetcode.com/problems/product-of-array-except-self/discuss/1451640/Python-3-or-Forward-and-Backward
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -241,3 +251,4 @@ Reach out to the maintainer at one of the following places:
 [c-two-sum]: easy/two-sum.py
 [c-squares-of-a-sorted-array]: easy/squares-of-a-sorted-array.py
 [c-majority-element]: easy/majority-element.py
+[c-product-of-array-except-self]: medium/product-of-array-except-self.py
