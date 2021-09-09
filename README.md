@@ -101,9 +101,10 @@ The key features of **LeetCode Python**:
 
 ### Medium
 
-| Problem                                                        | Category | My Solution                            | Source Code                            |
-| -------------------------------------------------------------- | -------- | -------------------------------------- | -------------------------------------- |
-| [Product of Array Except Self][p-product-of-array-except-self] | `Arrays` | [Link][d-product-of-array-except-self] | [Link][c-product-of-array-except-self] |
+| Problem                                                        | Category                   | My Solution                            | Source Code                            |
+| -------------------------------------------------------------- | -------------------------- | -------------------------------------- | -------------------------------------- |
+| [Product of Array Except Self][p-product-of-array-except-self] | `Arrays`                   | [Link][d-product-of-array-except-self] | [Link][c-product-of-array-except-self] |
+| [Find the Duplicate Number][p-find-the-duplicate-number]       | `Arrays` \| `Two Pointers` | [Link][d-find-the-duplicate-number]    | [Link][c-find-the-duplicate-number]    |
 
 
 ---
@@ -182,6 +183,7 @@ Reach out to the maintainer at one of the following places:
 [p-squares-of-a-sorted-array]: https://leetcode.com/problems/squares-of-a-sorted-array/
 [p-majority-element]: https://leetcode.com/problems/majority-element/
 [p-product-of-array-except-self]: https://leetcode.com/problems/product-of-array-except-self/
+[p-find-the-duplicate-number]: https://leetcode.com/problems/find-the-duplicate-number/
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -217,6 +219,7 @@ Reach out to the maintainer at one of the following places:
 [d-squares-of-a-sorted-array]: https://leetcode.com/problems/squares-of-a-sorted-array/discuss/1447790/Python-3-or-2-Methods-or-Sorted-or-Two-Pointers
 [d-majority-element]: https://leetcode.com/problems/majority-element/discuss/1451480/Python-3-or-Counter-or-One-liner
 [d-product-of-array-except-self]: https://leetcode.com/problems/product-of-array-except-self/discuss/1451640/Python-3-or-Forward-and-Backward
+[d-find-the-duplicate-number]: https://leetcode.com/problems/find-the-duplicate-number/discuss/1454113/Python-3-or-Cycle-Detection
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -252,3 +255,4 @@ Reach out to the maintainer at one of the following places:
 [c-squares-of-a-sorted-array]: easy/squares-of-a-sorted-array.py
 [c-majority-element]: easy/majority-element.py
 [c-product-of-array-except-self]: medium/product-of-array-except-self.py
+[c-find-the-duplicate-number]: medium/find-the-duplicate-number.py
