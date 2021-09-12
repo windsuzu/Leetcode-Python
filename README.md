@@ -99,13 +99,15 @@ The key features of **LeetCode Python**:
 | [Squares of a Sorted Array][p-squares-of-a-sorted-array]                                           | `Two Pointers`                              | [Link][d-squares-of-a-sorted-array]                      | [Link][c-squares-of-a-sorted-array]                      |
 | [Majority Element][p-majority-element]                                                             | `Sorting`                                   | [Link][d-majority-element]                               | [Link][c-majority-element]                               |
 
+
 ### Medium
 
-| Problem                                                        | Category                   | My Solution                            | Source Code                            |
-| -------------------------------------------------------------- | -------------------------- | -------------------------------------- | -------------------------------------- |
-| [Product of Array Except Self][p-product-of-array-except-self] | `Arrays`                   | [Link][d-product-of-array-except-self] | [Link][c-product-of-array-except-self] |
-| [Find the Duplicate Number][p-find-the-duplicate-number]       | `Arrays` \| `Two Pointers` | [Link][d-find-the-duplicate-number]    | [Link][c-find-the-duplicate-number]    |
-
+| Problem                                                              | Category                   | My Solution                               | Source Code                               |
+| -------------------------------------------------------------------- | -------------------------- | ----------------------------------------- | ----------------------------------------- |
+| [Product of Array Except Self][p-product-of-array-except-self]       | `Arrays`                   | [Link][d-product-of-array-except-self]    | [Link][c-product-of-array-except-self]    |
+| [Find the Duplicate Number][p-find-the-duplicate-number]             | `Arrays` \| `Two Pointers` | [Link][d-find-the-duplicate-number]       | [Link][c-find-the-duplicate-number]       |
+| [Find All Duplicates in an Array][p-find-all-duplicates-in-an-array] | `Arrays`                   | [Link][d-find-all-duplicates-in-an-array] | [Link][c-find-all-duplicates-in-an-array] |
+| [Set Matrix Zeroes][p-set-matrix-zeroes]                             | `Arrays`                   | [Link][d-set-matrix-zeroes]               | [Link][c-set-matrix-zeroes]               |
 
 ---
 
@@ -184,6 +186,9 @@ Reach out to the maintainer at one of the following places:
 [p-majority-element]: https://leetcode.com/problems/majority-element/
 [p-product-of-array-except-self]: https://leetcode.com/problems/product-of-array-except-self/
 [p-find-the-duplicate-number]: https://leetcode.com/problems/find-the-duplicate-number/
+[p-find-all-duplicates-in-an-array]: https://leetcode.com/problems/find-all-duplicates-in-an-array/
+[p-set-matrix-zeroes]: https://leetcode.com/problems/set-matrix-zeroes/
+
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -220,6 +225,9 @@ Reach out to the maintainer at one of the following places:
 [d-majority-element]: https://leetcode.com/problems/majority-element/discuss/1451480/Python-3-or-Counter-or-One-liner
 [d-product-of-array-except-self]: https://leetcode.com/problems/product-of-array-except-self/discuss/1451640/Python-3-or-Forward-and-Backward
 [d-find-the-duplicate-number]: https://leetcode.com/problems/find-the-duplicate-number/discuss/1454113/Python-3-or-Cycle-Detection
+[d-find-all-duplicates-in-an-array]: https://leetcode.com/problems/find-all-duplicates-in-an-array/discuss/1458918/Python-3-or-Sort
+[d-set-matrix-zeroes]: https://leetcode.com/problems/set-matrix-zeroes/discuss/1459067/Python-3-or-Two-Sets
+
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -256,3 +264,5 @@ Reach out to the maintainer at one of the following places:
 [c-majority-element]: easy/majority-element.py
 [c-product-of-array-except-self]: medium/product-of-array-except-self.py
 [c-find-the-duplicate-number]: medium/find-the-duplicate-number.py
+[c-find-all-duplicates-in-an-array]: medium/find-all-duplicates-in-an-array.py
+[c-set-matrix-zeroes]: medium/set-matrix-zeroes.py
