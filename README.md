@@ -108,6 +108,7 @@ The key features of **LeetCode Python**:
 | [Find the Duplicate Number][p-find-the-duplicate-number]             | `Arrays` \| `Two Pointers` | [Link][d-find-the-duplicate-number]       | [Link][c-find-the-duplicate-number]       |
 | [Find All Duplicates in an Array][p-find-all-duplicates-in-an-array] | `Arrays`                   | [Link][d-find-all-duplicates-in-an-array] | [Link][c-find-all-duplicates-in-an-array] |
 | [Set Matrix Zeroes][p-set-matrix-zeroes]                             | `Arrays`                   | [Link][d-set-matrix-zeroes]               | [Link][c-set-matrix-zeroes]               |
+| [Spiral Matrix][p-spiral-matrix]                                     | `Arrays`                   | [Link][d-spiral-matrix]                   | [Link][c-spiral-matrix]                   |
 
 ---
 
@@ -188,7 +189,7 @@ Reach out to the maintainer at one of the following places:
 [p-find-the-duplicate-number]: https://leetcode.com/problems/find-the-duplicate-number/
 [p-find-all-duplicates-in-an-array]: https://leetcode.com/problems/find-all-duplicates-in-an-array/
 [p-set-matrix-zeroes]: https://leetcode.com/problems/set-matrix-zeroes/
-
+[p-spiral-matrix]: https://leetcode.com/problems/spiral-matrix/
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -227,7 +228,7 @@ Reach out to the maintainer at one of the following places:
 [d-find-the-duplicate-number]: https://leetcode.com/problems/find-the-duplicate-number/discuss/1454113/Python-3-or-Cycle-Detection
 [d-find-all-duplicates-in-an-array]: https://leetcode.com/problems/find-all-duplicates-in-an-array/discuss/1458918/Python-3-or-Sort
 [d-set-matrix-zeroes]: https://leetcode.com/problems/set-matrix-zeroes/discuss/1459067/Python-3-or-Two-Sets
-
+[d-spiral-matrix]: https://leetcode.com/problems/spiral-matrix/discuss/1460477/python-3-simulation
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -266,3 +267,4 @@ Reach out to the maintainer at one of the following places:
 [c-find-the-duplicate-number]: medium/find-the-duplicate-number.py
 [c-find-all-duplicates-in-an-array]: medium/find-all-duplicates-in-an-array.py
 [c-set-matrix-zeroes]: medium/set-matrix-zeroes.py
+[c-spiral-matrix]: medium/spiral-matrix.py
