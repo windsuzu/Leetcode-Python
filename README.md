@@ -112,6 +112,7 @@ The key features of **LeetCode Python**:
 | [Rotate Image][p-rotate-image]                                       | `Arrays`                   | [Link][d-rotate-image]                    | [Link][c-rotate-image]                    |
 | [Longest Consecutive Sequence][p-longest-consecutive-sequence]       | `Arrays`                   | [Link][d-longest-consecutive-sequence]    | [Link][c-longest-consecutive-sequence]    |
 | [Letter Case Permutation][p-letter-case-permutation]                 | `Backtracking`             | [Link][d-letter-case-permutation]         | [Link][c-letter-case-permutation]         |
+| [Subsets][p-subsets]                                                 | `Backtracking`             | [Link][d-subsets]                         | [Link][c-subsets]                         |
 
 ---
 
@@ -196,6 +197,7 @@ Reach out to the maintainer at one of the following places:
 [p-rotate-image]: https://leetcode.com/problems/rotate-image/
 [p-longest-consecutive-sequence]: https://leetcode.com/problems/longest-consecutive-sequence/
 [p-letter-case-permutation]: https://leetcode.com/problems/letter-case-permutation/
+[p-subsets]: https://leetcode.com/problems/subsets/
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -238,6 +240,7 @@ Reach out to the maintainer at one of the following places:
 [d-rotate-image]: https://leetcode.com/problems/rotate-image/discuss/1462730/Python-3-or-Swap-4-Elements
 [d-longest-consecutive-sequence]: https://leetcode.com/problems/longest-consecutive-sequence/discuss/1468237/Python-3-or-Sort
 [d-letter-case-permutation]: https://leetcode.com/problems/letter-case-permutation/discuss/1470638/Python-3-or-Bottom-Up
+[d-subsets]: https://leetcode.com/problems/subsets/discuss/1470698/python-3-combinations-one-liner
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -280,3 +283,4 @@ Reach out to the maintainer at one of the following places:
 [c-rotate-image]: medium/rotate-image.py
 [c-longest-consecutive-sequence]: medium/longest-consecutive-sequence.py
 [c-letter-case-permutation]: medium/letter-case-permutation.py
+[c-subsets]: medium/subsets.py
