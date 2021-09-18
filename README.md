@@ -111,6 +111,7 @@ The key features of **LeetCode Python**:
 | [Spiral Matrix][p-spiral-matrix]                                     | `Arrays`                   | [Link][d-spiral-matrix]                   | [Link][c-spiral-matrix]                   |
 | [Rotate Image][p-rotate-image]                                       | `Arrays`                   | [Link][d-rotate-image]                    | [Link][c-rotate-image]                    |
 | [Longest Consecutive Sequence][p-longest-consecutive-sequence]       | `Arrays`                   | [Link][d-longest-consecutive-sequence]    | [Link][c-longest-consecutive-sequence]    |
+| [Letter Case Permutation][p-letter-case-permutation]                 | `Backtracking`             | [Link][d-letter-case-permutation]         | [Link][c-letter-case-permutation]         |
 
 ---
 
@@ -194,6 +195,7 @@ Reach out to the maintainer at one of the following places:
 [p-spiral-matrix]: https://leetcode.com/problems/spiral-matrix/
 [p-rotate-image]: https://leetcode.com/problems/rotate-image/
 [p-longest-consecutive-sequence]: https://leetcode.com/problems/longest-consecutive-sequence/
+[p-letter-case-permutation]: https://leetcode.com/problems/letter-case-permutation/
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -235,7 +237,7 @@ Reach out to the maintainer at one of the following places:
 [d-spiral-matrix]: https://leetcode.com/problems/spiral-matrix/discuss/1460477/python-3-simulation
 [d-rotate-image]: https://leetcode.com/problems/rotate-image/discuss/1462730/Python-3-or-Swap-4-Elements
 [d-longest-consecutive-sequence]: https://leetcode.com/problems/longest-consecutive-sequence/discuss/1468237/Python-3-or-Sort
-
+[d-letter-case-permutation]: https://leetcode.com/problems/letter-case-permutation/discuss/1470638/Python-3-or-Bottom-Up
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -277,3 +279,4 @@ Reach out to the maintainer at one of the following places:
 [c-spiral-matrix]: medium/spiral-matrix.py
 [c-rotate-image]: medium/rotate-image.py
 [c-longest-consecutive-sequence]: medium/longest-consecutive-sequence.py
+[c-letter-case-permutation]: medium/letter-case-permutation.py
