@@ -114,6 +114,7 @@ The key features of **LeetCode Python**:
 | [Letter Case Permutation][p-letter-case-permutation]                 | `Backtracking`             | [Link][d-letter-case-permutation]         | [Link][c-letter-case-permutation]         |
 | [Subsets][p-subsets]                                                 | `Backtracking`             | [Link][d-subsets]                         | [Link][c-subsets]                         |
 | [Subsets II][p-subsets-ii]                                           | `Backtracking`             | [Link][d-subsets-ii]                      | [Link][c-subsets-ii]                      |
+| [Combination Sum][p-combination-sum]                                 | `Backtracking`             | [Link][d-combination-sum]                 | [Link][c-combination-sum]                 |
 
 ---
 
@@ -200,6 +201,7 @@ Reach out to the maintainer at one of the following places:
 [p-letter-case-permutation]: https://leetcode.com/problems/letter-case-permutation/
 [p-subsets]: https://leetcode.com/problems/subsets/
 [p-subsets-ii]: https://leetcode.com/problems/subsets-ii/
+[p-combination-sum]: https://leetcode.com/problems/combination-sum/
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -244,6 +246,7 @@ Reach out to the maintainer at one of the following places:
 [d-letter-case-permutation]: https://leetcode.com/problems/letter-case-permutation/discuss/1470638/Python-3-or-Bottom-Up
 [d-subsets]: https://leetcode.com/problems/subsets/discuss/1470698/python-3-combinations-one-liner
 [d-subsets-ii]: https://leetcode.com/problems/subsets-ii/discuss/1474348/Python-3-or-Combinations-%2B-Sorted-%2B-Set-or-One-liner
+[d-combination-sum]: https://leetcode.com/problems/combination-sum/discuss/1478562/Python-3-or-Brute-Force-or-DFS
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -288,3 +291,4 @@ Reach out to the maintainer at one of the following places:
 [c-letter-case-permutation]: medium/letter-case-permutation.py
 [c-subsets]: medium/subsets.py
 [c-subsets-ii]: medium/subsets-ii.py
+[c-combination-sum]: medium/combination-sum.py
