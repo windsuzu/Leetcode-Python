@@ -116,6 +116,7 @@ The key features of **LeetCode Python**:
 | [Subsets II][p-subsets-ii]                                           | `Backtracking`             | [Link][d-subsets-ii]                      | [Link][c-subsets-ii]                      |
 | [Combination Sum][p-combination-sum]                                 | `Backtracking`             | [Link][d-combination-sum]                 | [Link][c-combination-sum]                 |
 | [Combination Sum II][p-combination-sum-ii]                           | `Backtracking`             | [Link][d-combination-sum-ii]              | [Link][c-combination-sum-ii]              |
+| [Combination Sum III][p-combination-sum-iii]                         | `Backtracking`             | [Link][d-combination-sum-iii]             | [Link][c-combination-sum-iii]             |
 
 ---
 
@@ -204,6 +205,7 @@ Reach out to the maintainer at one of the following places:
 [p-subsets-ii]: https://leetcode.com/problems/subsets-ii/
 [p-combination-sum]: https://leetcode.com/problems/combination-sum/
 [p-combination-sum-ii]: https://leetcode.com/problems/combination-sum-ii/
+[p-combination-sum-iii]: https://leetcode.com/problems/combination-sum-iii/
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -250,6 +252,7 @@ Reach out to the maintainer at one of the following places:
 [d-subsets-ii]: https://leetcode.com/problems/subsets-ii/discuss/1474348/Python-3-or-Combinations-%2B-Sorted-%2B-Set-or-One-liner
 [d-combination-sum]: https://leetcode.com/problems/combination-sum/discuss/1478562/Python-3-or-Brute-Force-or-DFS
 [d-combination-sum-ii]: https://leetcode.com/problems/combination-sum-ii/discuss/1495153/Python-3-or-Backtracking-or-Avoid-Duplicates
+[d-combination-sum-iii]: https://leetcode.com/problems/combination-sum-iii/discuss/1496784/Python-3-or-BackTracking-or-Combinations
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -296,3 +299,4 @@ Reach out to the maintainer at one of the following places:
 [c-subsets-ii]: medium/subsets-ii.py
 [c-combination-sum]: medium/combination-sum.py
 [c-combination-sum-ii]: medium/combination-sum-ii.py
+[c-combination-sum-iii]: medium/combination-sum-iii.py
