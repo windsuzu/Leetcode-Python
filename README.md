@@ -117,6 +117,8 @@ The key features of **LeetCode Python**:
 | [Combination Sum][p-combination-sum]                                 | `Backtracking`             | [Link][d-combination-sum]                 | [Link][c-combination-sum]                 |
 | [Combination Sum II][p-combination-sum-ii]                           | `Backtracking`             | [Link][d-combination-sum-ii]              | [Link][c-combination-sum-ii]              |
 | [Combination Sum III][p-combination-sum-iii]                         | `Backtracking`             | [Link][d-combination-sum-iii]             | [Link][c-combination-sum-iii]             |
+| [Generate Parentheses][p-generate-parentheses]                       | `Backtracking`             | [Link][d-generate-parentheses]            | [Link][c-generate-parentheses]            |
+
 
 ---
 
@@ -206,6 +208,7 @@ Reach out to the maintainer at one of the following places:
 [p-combination-sum]: https://leetcode.com/problems/combination-sum/
 [p-combination-sum-ii]: https://leetcode.com/problems/combination-sum-ii/
 [p-combination-sum-iii]: https://leetcode.com/problems/combination-sum-iii/
+[p-generate-parentheses]: https://leetcode.com/problems/generate-parentheses/
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -253,6 +256,7 @@ Reach out to the maintainer at one of the following places:
 [d-combination-sum]: https://leetcode.com/problems/combination-sum/discuss/1478562/Python-3-or-Brute-Force-or-DFS
 [d-combination-sum-ii]: https://leetcode.com/problems/combination-sum-ii/discuss/1495153/Python-3-or-Backtracking-or-Avoid-Duplicates
 [d-combination-sum-iii]: https://leetcode.com/problems/combination-sum-iii/discuss/1496784/Python-3-or-BackTracking-or-Combinations
+[d-generate-parentheses]: https://leetcode.com/problems/generate-parentheses/discuss/1501229/Python-3-or-BackTracking-or-Left-and-Right
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -300,3 +304,4 @@ Reach out to the maintainer at one of the following places:
 [c-combination-sum]: medium/combination-sum.py
 [c-combination-sum-ii]: medium/combination-sum-ii.py
 [c-combination-sum-iii]: medium/combination-sum-iii.py
+[c-generate-parentheses]: medium/generate-parentheses.py
