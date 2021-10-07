@@ -119,6 +119,7 @@ The key features of **LeetCode Python**:
 | [Combination Sum III][p-combination-sum-iii]                         | `Backtracking`                          | [Link][d-combination-sum-iii]             | [Link][c-combination-sum-iii]             |
 | [Generate Parentheses][p-generate-parentheses]                       | `Backtracking`                          | [Link][d-generate-parentheses]            | [Link][c-generate-parentheses]            |
 | [Target Sum][p-target-sum]                                           | `Backtracking` \| `Dynamic Programming` | [Link][d-target-sum]                      | [Link][c-target-sum]                      |
+| [Palindrome Partitioning][p-palindrome-partitioning]                 | `Backtracking`                          | [Link][d-palindrome-partitioning]         | [Link][c-palindrome-partitioning]         |
 
 
 ---
@@ -211,6 +212,7 @@ Reach out to the maintainer at one of the following places:
 [p-combination-sum-iii]: https://leetcode.com/problems/combination-sum-iii/
 [p-generate-parentheses]: https://leetcode.com/problems/generate-parentheses/
 [p-target-sum]: https://leetcode.com/problems/target-sum/
+[p-palindrome-partitioning]: https://leetcode.com/problems/palindrome-partitioning/
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -260,6 +262,8 @@ Reach out to the maintainer at one of the following places:
 [d-combination-sum-iii]: https://leetcode.com/problems/combination-sum-iii/discuss/1496784/Python-3-or-BackTracking-or-Combinations
 [d-generate-parentheses]: https://leetcode.com/problems/generate-parentheses/discuss/1501229/Python-3-or-BackTracking-or-Left-and-Right
 [d-target-sum]: https://leetcode.com/problems/target-sum/discuss/1504323/Python-3-or-Backtracking-or-Memoization
+[d-palindrome-partitioning]: https://leetcode.com/problems/palindrome-partitioning/discuss/1508574/Python-3-or-Backtracking
+
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -309,3 +313,4 @@ Reach out to the maintainer at one of the following places:
 [c-combination-sum-iii]: medium/combination-sum-iii.py
 [c-generate-parentheses]: medium/generate-parentheses.py
 [c-target-sum]: medium/target-sum.py
+[c-palindrome-partitioning]: medium/palindrome-partitioning.py
