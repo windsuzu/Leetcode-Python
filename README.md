@@ -102,25 +102,25 @@ The key features of **LeetCode Python**:
 
 ### Medium
 
-| Problem                                                              | Category                                | My Solution                               | Source Code                               |
-| -------------------------------------------------------------------- | --------------------------------------- | ----------------------------------------- | ----------------------------------------- |
-| [Product of Array Except Self][p-product-of-array-except-self]       | `Arrays`                                | [Link][d-product-of-array-except-self]    | [Link][c-product-of-array-except-self]    |
-| [Find the Duplicate Number][p-find-the-duplicate-number]             | `Arrays` \| `Two Pointers`              | [Link][d-find-the-duplicate-number]       | [Link][c-find-the-duplicate-number]       |
-| [Find All Duplicates in an Array][p-find-all-duplicates-in-an-array] | `Arrays`                                | [Link][d-find-all-duplicates-in-an-array] | [Link][c-find-all-duplicates-in-an-array] |
-| [Set Matrix Zeroes][p-set-matrix-zeroes]                             | `Arrays`                                | [Link][d-set-matrix-zeroes]               | [Link][c-set-matrix-zeroes]               |
-| [Spiral Matrix][p-spiral-matrix]                                     | `Arrays`                                | [Link][d-spiral-matrix]                   | [Link][c-spiral-matrix]                   |
-| [Rotate Image][p-rotate-image]                                       | `Arrays`                                | [Link][d-rotate-image]                    | [Link][c-rotate-image]                    |
-| [Longest Consecutive Sequence][p-longest-consecutive-sequence]       | `Arrays`                                | [Link][d-longest-consecutive-sequence]    | [Link][c-longest-consecutive-sequence]    |
-| [Letter Case Permutation][p-letter-case-permutation]                 | `Backtracking`                          | [Link][d-letter-case-permutation]         | [Link][c-letter-case-permutation]         |
-| [Subsets][p-subsets]                                                 | `Backtracking`                          | [Link][d-subsets]                         | [Link][c-subsets]                         |
-| [Subsets II][p-subsets-ii]                                           | `Backtracking`                          | [Link][d-subsets-ii]                      | [Link][c-subsets-ii]                      |
-| [Combination Sum][p-combination-sum]                                 | `Backtracking`                          | [Link][d-combination-sum]                 | [Link][c-combination-sum]                 |
-| [Combination Sum II][p-combination-sum-ii]                           | `Backtracking`                          | [Link][d-combination-sum-ii]              | [Link][c-combination-sum-ii]              |
-| [Combination Sum III][p-combination-sum-iii]                         | `Backtracking`                          | [Link][d-combination-sum-iii]             | [Link][c-combination-sum-iii]             |
-| [Generate Parentheses][p-generate-parentheses]                       | `Backtracking`                          | [Link][d-generate-parentheses]            | [Link][c-generate-parentheses]            |
-| [Target Sum][p-target-sum]                                           | `Backtracking` \| `Dynamic Programming` | [Link][d-target-sum]                      | [Link][c-target-sum]                      |
-| [Palindrome Partitioning][p-palindrome-partitioning]                 | `Backtracking`                          | [Link][d-palindrome-partitioning]         | [Link][c-palindrome-partitioning]         |
-
+| Problem                                                                          | Category                                | My Solution                                     | Source Code                                     |
+| -------------------------------------------------------------------------------- | --------------------------------------- | ----------------------------------------------- | ----------------------------------------------- |
+| [Product of Array Except Self][p-product-of-array-except-self]                   | `Arrays`                                | [Link][d-product-of-array-except-self]          | [Link][c-product-of-array-except-self]          |
+| [Find the Duplicate Number][p-find-the-duplicate-number]                         | `Arrays` \| `Two Pointers`              | [Link][d-find-the-duplicate-number]             | [Link][c-find-the-duplicate-number]             |
+| [Find All Duplicates in an Array][p-find-all-duplicates-in-an-array]             | `Arrays`                                | [Link][d-find-all-duplicates-in-an-array]       | [Link][c-find-all-duplicates-in-an-array]       |
+| [Set Matrix Zeroes][p-set-matrix-zeroes]                                         | `Arrays`                                | [Link][d-set-matrix-zeroes]                     | [Link][c-set-matrix-zeroes]                     |
+| [Spiral Matrix][p-spiral-matrix]                                                 | `Arrays`                                | [Link][d-spiral-matrix]                         | [Link][c-spiral-matrix]                         |
+| [Rotate Image][p-rotate-image]                                                   | `Arrays`                                | [Link][d-rotate-image]                          | [Link][c-rotate-image]                          |
+| [Longest Consecutive Sequence][p-longest-consecutive-sequence]                   | `Arrays`                                | [Link][d-longest-consecutive-sequence]          | [Link][c-longest-consecutive-sequence]          |
+| [Letter Case Permutation][p-letter-case-permutation]                             | `Backtracking`                          | [Link][d-letter-case-permutation]               | [Link][c-letter-case-permutation]               |
+| [Subsets][p-subsets]                                                             | `Backtracking`                          | [Link][d-subsets]                               | [Link][c-subsets]                               |
+| [Subsets II][p-subsets-ii]                                                       | `Backtracking`                          | [Link][d-subsets-ii]                            | [Link][c-subsets-ii]                            |
+| [Combination Sum][p-combination-sum]                                             | `Backtracking`                          | [Link][d-combination-sum]                       | [Link][c-combination-sum]                       |
+| [Combination Sum II][p-combination-sum-ii]                                       | `Backtracking`                          | [Link][d-combination-sum-ii]                    | [Link][c-combination-sum-ii]                    |
+| [Combination Sum III][p-combination-sum-iii]                                     | `Backtracking`                          | [Link][d-combination-sum-iii]                   | [Link][c-combination-sum-iii]                   |
+| [Generate Parentheses][p-generate-parentheses]                                   | `Backtracking`                          | [Link][d-generate-parentheses]                  | [Link][c-generate-parentheses]                  |
+| [Target Sum][p-target-sum]                                                       | `Backtracking` \| `Dynamic Programming` | [Link][d-target-sum]                            | [Link][c-target-sum]                            |
+| [Palindrome Partitioning][p-palindrome-partitioning]                             | `Backtracking`                          | [Link][d-palindrome-partitioning]               | [Link][c-palindrome-partitioning]               |
+| [Letter Combinations of a Phone Number][p-letter-combinations-of-a-phone-number] | `Backtracking`                          | [Link][d-letter-combinations-of-a-phone-number] | [Link][c-letter-combinations-of-a-phone-number] |
 
 ---
 
@@ -213,6 +213,8 @@ Reach out to the maintainer at one of the following places:
 [p-generate-parentheses]: https://leetcode.com/problems/generate-parentheses/
 [p-target-sum]: https://leetcode.com/problems/target-sum/
 [p-palindrome-partitioning]: https://leetcode.com/problems/palindrome-partitioning/
+[p-letter-combinations-of-a-phone-number]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+
 
 <!-- Discuss Ref -->
 [d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
@@ -263,6 +265,7 @@ Reach out to the maintainer at one of the following places:
 [d-generate-parentheses]: https://leetcode.com/problems/generate-parentheses/discuss/1501229/Python-3-or-BackTracking-or-Left-and-Right
 [d-target-sum]: https://leetcode.com/problems/target-sum/discuss/1504323/Python-3-or-Backtracking-or-Memoization
 [d-palindrome-partitioning]: https://leetcode.com/problems/palindrome-partitioning/discuss/1508574/Python-3-or-Backtracking
+[d-letter-combinations-of-a-phone-number]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/discuss/1511593/Python-3-or-Two-Solutions-or-Product-or-Backtracking
 
 
 <!-- Code Ref -->
@@ -314,3 +317,4 @@ Reach out to the maintainer at one of the following places:
 [c-generate-parentheses]: medium/generate-parentheses.py
 [c-target-sum]: medium/target-sum.py
 [c-palindrome-partitioning]: medium/palindrome-partitioning.py
+[c-letter-combinations-of-a-phone-number]: medium/letter-combinations-of-a-phone-number.py
