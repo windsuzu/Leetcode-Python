@@ -121,6 +121,7 @@ The key features of **LeetCode Python**:
 | [Target Sum][p-target-sum]                                                       | `Backtracking` \| `Dynamic Programming` | [Link][d-target-sum]                            | [Link][c-target-sum]                            |
 | [Palindrome Partitioning][p-palindrome-partitioning]                             | `Backtracking`                          | [Link][d-palindrome-partitioning]               | [Link][c-palindrome-partitioning]               |
 | [Letter Combinations of a Phone Number][p-letter-combinations-of-a-phone-number] | `Backtracking`                          | [Link][d-letter-combinations-of-a-phone-number] | [Link][c-letter-combinations-of-a-phone-number] |
+| [House Robber][p-house-robber]                                                   | `Dynamic Programming`                   | [Link][d-house-robber]                          | [Link][c-house-robber]                          |
 
 ---
 
@@ -214,6 +215,7 @@ Reach out to the maintainer at one of the following places:
 [p-target-sum]: https://leetcode.com/problems/target-sum/
 [p-palindrome-partitioning]: https://leetcode.com/problems/palindrome-partitioning/
 [p-letter-combinations-of-a-phone-number]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+[p-house-robber]: https://leetcode.com/problems/house-robber/
 
 
 <!-- Discuss Ref -->
@@ -266,7 +268,7 @@ Reach out to the maintainer at one of the following places:
 [d-target-sum]: https://leetcode.com/problems/target-sum/discuss/1504323/Python-3-or-Backtracking-or-Memoization
 [d-palindrome-partitioning]: https://leetcode.com/problems/palindrome-partitioning/discuss/1508574/Python-3-or-Backtracking
 [d-letter-combinations-of-a-phone-number]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/discuss/1511593/Python-3-or-Two-Solutions-or-Product-or-Backtracking
-
+[d-house-robber]: https://leetcode.com/problems/house-robber/discuss/1517604/Python-3-or-DP-or-deque
 
 <!-- Code Ref -->
 [c-contains-duplicate]: easy/contains-duplicate.py
@@ -318,3 +320,4 @@ Reach out to the maintainer at one of the following places:
 [c-target-sum]: medium/target-sum.py
 [c-palindrome-partitioning]: medium/palindrome-partitioning.py
 [c-letter-combinations-of-a-phone-number]: medium/letter-combinations-of-a-phone-number.py
+[c-house-robber]: medium/house-robber.py
