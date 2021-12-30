@@ -28,10 +28,8 @@
 <summary>Table of Contents</summary>
 
 * [About](#about)
-* [Problem List](#problem-list)
-  * [Easy](#easy)
-  * [Medium](#medium)
-* [Contributing](#contributing)
+* [Blind 75 LeetCode Questions](#blind-75-leetcode-questions)
+* [seanprashad / leetcode-patterns](#seanprashad--leetcode-patterns)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -46,13 +44,12 @@
 <tr>
 <td>
 
-I use [seanprashad / leetcode-patterns](https://github.com/SeanPrashad/leetcode-patterns) as my **question list** to improve my problem solving skill and algorithm design at LeetCode.
+This repository collects the questions that I have solved in LeetCode. These problems are solved in Python 3 and arranged by a number of well-designed practice lists and spreadsheets, such as **Blind 75 Leetcode Problems**.
 
-The key features of **LeetCode Python**:
+Below are the problem spreadsheets that I have completed or currently working on:
 
-- LeetCode questions commonly asked in interviews at large companies
-- Python 3 skills
-- Explanation of logics
+- [x] [Blind 75 LeetCode Questions](https://techinterviewhandbook.org/best-practice-questions/)
+- [ ] [seanprashad / leetcode-patterns](https://github.com/SeanPrashad/leetcode-patterns)
 
 </td>
 </tr>
@@ -60,80 +57,117 @@ The key features of **LeetCode Python**:
 
 ---
 
-## Problem List
+<!-- Badges -->
 
-### Easy
+<!-- Difficulty -->
+[easy]: https://img.shields.io/badge/-easy-green?style=for-the-badge
+[medium]: https://img.shields.io/badge/-medium-orange?style=for-the-badge
+[hard]: https://img.shields.io/badge/-hard-red?style=for-the-badge
 
-| Problem                                                                                            | Category                                    | My Solution                                              | Source Code                                              |
-| -------------------------------------------------------------------------------------------------- | ------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
-| [Contains Duplicate][p-contains-duplicate]                                                         | `Arrays`                                    | [Link][d-contains-duplicate]                             | [Link][c-contains-duplicate]                             |
-| [Missing Number][p-missing-number]                                                                 | `Arrays`                                    | [Link][d-missing-number]                                 | [Link][c-missing-number]                                 |
-| [Find All Numbers Disappeared in an Array][p-find-all-numbers-disappeared-in-an-array]             | `Arrays`                                    | [Link][d-find-all-numbers-disappeared-in-an-array]       | [Link][c-find-all-numbers-disappeared-in-an-array]       |
-| [Single Number][p-single-number]                                                                   | `Arrays` \| `Bit Manipulation`              | [Link][d-single-number]                                  | [Link][c-single-number]                                  |
-| [Climbing Stairs][p-climbing-stairs]                                                               | `Dynamic Programming`                       | [Link][d-climbing-stairs]                                | [Link][c-climbing-stairs]                                |
-| [Best Time to Buy and Sell Stock][p-best-time-to-buy-and-sell-stock]                               | `Dynamic Programming`                       | [Link][d-best-time-to-buy-and-sell-stock]                | [Link][c-best-time-to-buy-and-sell-stock]                |
-| [Maximum Subarray][p-maximum-subarray]                                                             | `Dynamic Programming`                       | [Link][d-maximum-subarray]                               | [Link][c-maximum-subarray]                               |
-| [Range Sum Query - Immutable][p-range-sum-query]                                                   | `Dynamic Programming`                       | [Link][d-range-sum-query]                                | [Link][c-range-sum-query]                                |
-| [Counting Bits][p-counting-bits]                                                                   | `Dynamic Programming` \| `Bit Manipulation` | [Link][d-counting-bits]                                  | [Link][c-counting-bits]                                  |
-| [Linked List Cycle][p-linked-list-cycle]                                                           | `Fast & Slow Pointers`                      | [Link][d-linked-list-cycle]                              | [Link][c-linked-list-cycle]                              |
-| [Middle of the Linked List][p-middle-of-the-linked-list]                                           | `Fast & Slow Pointers`                      | [Link][d-middle-of-the-linked-list]                      | [Link][c-middle-of-the-linked-list]                      |
-| [Palindrome Linked List][p-palindrome-linked-list]                                                 | `Fast & Slow Pointers`                      | [Link][d-palindrome-linked-list]                         | [Link][c-palindrome-linked-list]                         |
-| [Remove Linked List Elements][p-remove-linked-list-elements]                                       | `Fast & Slow Pointers`                      | [Link][d-remove-linked-list-elements]                    | [Link][c-remove-linked-list-elements]                    |
-| [Remove Duplicates from Sorted List][p-remove-duplicates-from-sorted-list]                         | `Fast & Slow Pointers`                      | [Link][d-remove-duplicates-from-sorted-list]             | [Link][c-remove-duplicates-from-sorted-list]             |
-| [Reverse Linked List][p-reverse-linked-list]                                                       | `In-place reversal of a linked list`        | [Link][d-reverse-linked-list]                            | [Link][c-reverse-linked-list]                            |
-| [Merge Two Sorted Lists][p-merge-two-sorted-lists]                                                 | `Two Pointers`                              | [Link][d-merge-two-sorted-lists]                         | [Link][c-merge-two-sorted-lists]                         |
-| [Binary Search][p-binary-search]                                                                   | `Binary Search`                             | [Link][d-binary-search]                                  | [Link][c-binary-search]                                  |
-| [Find Smallest Letter Greater Than Target][p-find-smallest-letter-greater-than-target]             | `Binary Search`                             | [Link][d-find-smallest-letter-greater-than-target]       | [Link][c-find-smallest-letter-greater-than-target]       |
-| [Peak Index in a Mountain Array][p-peak-index-in-a-mountain-array]                                 | `Binary Search`                             | [Link][d-peak-index-in-a-mountain-array]                 | [Link][c-peak-index-in-a-mountain-array]                 |
-| [Average of Levels in Binary Tree][p-average-of-levels-in-binary-tree]                             | `BFS` \| `DFS`                              | [Link][d-average-of-levels-in-binary-tree]               | [Link][c-average-of-levels-in-binary-tree]               |
-| [Minimum Depth of Binary Tree][p-minimum-depth-of-binary-tree]                                     | `BFS` \| `DFS`                              | [Link][d-minimum-depth-of-binary-tree]                   | [Link][c-minimum-depth-of-binary-tree]                   |
-| [Same Tree][p-same-tree]                                                                           | `BFS` \| `DFS`                              | [Link][d-same-tree]                                      | [Link][c-same-tree]                                      |
-| [Path Sum][p-path-sum]                                                                             | `BFS` \| `DFS`                              | [Link][d-path-sum]                                       | [Link][c-path-sum]                                       |
-| [Diameter of Binary Tree][p-diameter-of-binary-tree]                                               | `DFS`                                       | [Link][d-diameter-of-binary-tree]                        | [Link][c-diameter-of-binary-tree]                        |
-| [Merge Two Binary Trees][p-merge-two-binary-trees]                                                 | `DFS`                                       | [Link][d-merge-two-binary-trees]                         | [Link][c-merge-two-binary-trees]                         |
-| [Maximum Depth of Binary Tree][p-maximum-depth-of-binary-tree]                                     | `BFS` \| `DFS`                              | [Link][d-maximum-depth-of-binary-tree]                   | [Link][c-maximum-depth-of-binary-tree]                   |
-| [Lowest Common Ancestor of a Binary Search Tree][p-lowest-common-ancestor-of-a-binary-search-tree] | `DFS`                                       | [Link][d-lowest-common-ancestor-of-a-binary-search-tree] | [Link][c-lowest-common-ancestor-of-a-binary-search-tree] |
-| [Subtree of Another Tree][p-subtree-of-another-tree]                                               | `DFS`                                       | [Link][d-subtree-of-another-tree]                        | [Link][c-subtree-of-another-tree]                        |
-| [Invert Binary Tree][p-invert-binary-tree]                                                         | `DFS`                                       | [Link][d-invert-binary-tree]                             | [Link][c-invert-binary-tree]                             |
-| [Two Sum][p-two-sum]                                                                               | `Two Pointers`                              | [Link][d-two-sum]                                        | [Link][c-two-sum]                                        |
-| [Squares of a Sorted Array][p-squares-of-a-sorted-array]                                           | `Two Pointers`                              | [Link][d-squares-of-a-sorted-array]                      | [Link][c-squares-of-a-sorted-array]                      |
-| [Majority Element][p-majority-element]                                                             | `Sorting`                                   | [Link][d-majority-element]                               | [Link][c-majority-element]                               |
+<!-- Pattern -->
+[array]: https://img.shields.io/badge/-array-d5a287?style=for-the-badge
+[string]: https://img.shields.io/badge/-string-72e677?style=for-the-badge
+[linked-list]: https://img.shields.io/badge/-linked_list-6935f7?style=for-the-badge
+[bit]: https://img.shields.io/badge/-bit-b4d4fb?style=for-the-badge
+[tree]: https://img.shields.io/badge/-tree-f6e95f?style=for-the-badge
+[heap]: https://img.shields.io/badge/-heap-f7b0c2?style=for-the-badge
+[matrix]: https://img.shields.io/badge/-matrix-252655?style=for-the-badge
+[graph]: https://img.shields.io/badge/-graph-838d9c?style=for-the-badge
+[dp]: https://img.shields.io/badge/-dp-9869c4?style=for-the-badge
+[interval]: https://img.shields.io/badge/-interval-6b254b?style=for-the-badge
+
+<!-- Others -->
+[Link]: https://img.shields.io/badge/-link-6ebbcb?style=for-the-badge
+
+<!-- Badges -->
+
+## Blind 75 LeetCode Questions
+
+| Id  | Problem                                                                                                                                                          | Pattern                     | Difficulty        | Solution                                                                                 |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | ----------------- | ---------------------------------------------------------------------------------------- |
+| 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                                                                | ![array][array]             | ![easy][easy]     | [![link][link]](/code/array/two-sum.py)                                                  |
+| 2   | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                                                                | ![array][array]             | ![easy][easy]     | [![link][link]](/code/array/best-time-to-buy-and-sell-stock.py)                          |
+| 3   | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                                                                                          | ![array][array]             | ![easy][easy]     | [![link][link]](/code/array/contains-duplicate.py)                                       |
+| 5   | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                                                                              | ![array][array]             | ![easy][easy]     | [![link][link]](/code/array/maximum-subarray.py)                                         |
+| 4   | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)                                                                      | ![array][array]             | ![medium][medium] | [![link][link]](/code/array/product-of-array-except-self.py)                             |
+| 6   | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)                                                                              | ![array][array]             | ![medium][medium] | [![link][link]](/code/array/maximum-product-subarray.py)                                 |
+| 7   | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                                      | ![array][array]             | ![medium][medium] | [![link][link]](/code/array/find-minimum-in-rotated-sorted-array.py)                     |
+| 8   | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                                  | ![array][array]             | ![medium][medium] | [![link][link]](/code/array/search-in-rotated-sorted-array.py)                           |
+| 9   | [3 Sum](https://leetcode.com/problems/3sum/)                                                                                                                     | ![array][array]             | ![medium][medium] | [![link][link]](/code/array/3-sum.py)                                                    |
+| 10  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                                                            | ![array][array]             | ![medium][medium] | [![link][link]](/code/array/container-with-most-water.py)                                |
+| 14  | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                                                    | ![string][string]           | ![easy][easy]     | [![link][link]](/code/string/valid-anagram.py)                                           |
+| 16  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                                                            | ![string][string]           | ![easy][easy]     | [![link][link]](/code/string/valid-parentheses.py)                                       |
+| 17  | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                                                                              | ![string][string]           | ![easy][easy]     | [![link][link]](/code/string/valid-palindrome.py)                                        |
+| 11  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                                  | ![string][string]           | ![medium][medium] | [![link][link]](/code/string/longest-substring-without-repeating-characters.py)          |
+| 12  | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)                                                | ![string][string]           | ![medium][medium] | [![link][link]](/code/string/longest-repeating-character-replacement.py)                 |
+| 15  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                                                                  | ![string][string]           | ![medium][medium] | [![link][link]](/code/string/group-anagrams.py)                                          |
+| 18  | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)                                                                    | ![string][string]           | ![medium][medium] | [![link][link]](/code/string/longest-palindromic-substring.py)                           |
+| 19  | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)                                                                                  | ![string][string]           | ![medium][medium] | [![link][link]](/code/string/palindromic-substrings.py)                                  |
+| 13  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                                                              | ![string][string]           | ![hard][hard]     | [![link][link]](/code/string/minimum-window-substring.py)                                |
+| 20  | [Encode and Decode Strings (Leetcode Premium)]()                                                                                                                 | ![string][string]           |                   |                                                                                          |
+| 21  | [Reverse a Linked List](https://leetcode.com/problems/reverse-a-linked-list/)                                                                                    | ![linked-list][linked-list] | ![easy][easy]     | [![link][link]](/code/linked-list/reverse-a-linked-list.py)                              |
+| 22  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                                                                                            | ![linked-list][linked-list] | ![easy][easy]     | [![link][link]](/code/linked-list/linked-list-cycle.py)                                  |
+| 23  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                                                                                  | ![linked-list][linked-list] | ![easy][easy]     | [![link][link]](/code/linked-list/merge-two-sorted-lists.py)                             |
+| 25  | [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)                                                              | ![linked-list][linked-list] | ![medium][medium] | [![link][link]](/code/linked-list/remove-nth-node-from-end-of-list.py)                   |
+| 26  | [Reorder List](https://leetcode.com/problems/reorder-list/)                                                                                                      | ![linked-list][linked-list] | ![medium][medium] | [![link][link]](/code/linked-list/reorder-list.py)                                       |
+| 24  | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                                                                      | ![linked-list][linked-list] | ![hard][hard]     | [![link][link]](/code/linked-list/merge-k-sorted-lists.py)                               |
+| 42  | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                                                                                              | ![bit][bit]                 | ![easy][easy]     | [![link][link]](/code/bit/number-of-1-bits.py)                                           |
+| 43  | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                                                                                    | ![bit][bit]                 | ![easy][easy]     | [![link][link]](/code/bit/counting-bits.py)                                              |
+| 44  | [Missing Number](https://leetcode.com/problems/missing-number/)                                                                                                  | ![bit][bit]                 | ![easy][easy]     | [![link][link]](/code/bit/missing-number.py)                                             |
+| 45  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                                                                                      | ![bit][bit]                 | ![easy][easy]     | [![link][link]](/code/bit/reverse-bits.py)                                               |
+| 41  | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)                                                                                        | ![bit][bit]                 | ![medium][medium] | [![link][link]](/code/bit/sum-of-two-integers.py)                                        |
+| 27  | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                                                                      | ![tree][tree]               | ![easy][easy]     | [![link][link]](/code/tree/maximum-depth-of-binary-tree.py)                              |
+| 28  | [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                                            | ![tree][tree]               | ![easy][easy]     | [![link][link]](/code/tree/same-tree.py)                                                 |
+| 29  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                                                                                          | ![tree][tree]               | ![easy][easy]     | [![link][link]](/code/tree/invert-binary-tree.py)                                        |
+| 33  | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)                                                                                | ![tree][tree]               | ![easy][easy]     | [![link][link]](/code/tree/subtree-of-another-tree.py)                                   |
+| 37  | [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-bst/)                                                                    | ![tree][tree]               | ![easy][easy]     | [![link][link]](/code/tree/lowest-common-ancestor-of-bst.py)                             |
+| 31  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)                                                            | ![tree][tree]               | ![medium][medium] | [![link][link]](/code/tree/binary-tree-level-order-traversal.py)                         |
+| 34  | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)            | ![tree][tree]               | ![medium][medium] | [![link][link]](/code/tree/construct-binary-tree-from-preorder-and-inorder-traversal.py) |
+| 35  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                                                        | ![tree][tree]               | ![medium][medium] | [![link][link]](/code/tree/validate-binary-search-tree.py)                               |
+| 36  | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)                                                                    | ![tree][tree]               | ![medium][medium] | [![link][link]](/code/tree/kth-smallest-element-in-a-bst.py)                             |
+| 38  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)                                                                        | ![tree][tree]               | ![medium][medium] | [![link][link]](/code/tree/implement-trie-prefix-tree.py)                                |
+| 39  | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)                                          | ![tree][tree]               | ![medium][medium] | [![link][link]](/code/tree/design-add-and-search-words-data-structure.py)                |
+| 30  | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                                                                      | ![tree][tree]               | ![hard][hard]     | [![link][link]](/code/tree/binary-tree-maximum-path-sum.py)                              |
+| 32  | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)                                                    | ![tree][tree]               | ![hard][hard]     | [![link][link]](/code/tree/serialize-and-deserialize-binary-tree.py)                     |
+| 40  | [Word Search II](https://leetcode.com/problems/word-search-ii/)                                                                                                  | ![tree][tree]               | ![hard][hard]     | [![link][link]](/code/tree/word-search-ii.py)                                            |
+| 47  | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                                                                                | ![heap][heap]               | ![medium][medium] | [![link][link]](/code/heap/top-k-frequent-elements.py)                                   |
+| 46  | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                                                                      | ![heap][heap]               | ![hard][hard]     | [![link][link]](/code/heap/merge-k-sorted-lists.py)                                      |
+| 48  | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)                                                                      | ![heap][heap]               | ![hard][hard]     | [![link][link]](/code/heap/find-median-from-data-stream.py)                              |
+| 49  | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)                                                                                            | ![matrix][matrix]           | ![medium][medium] | [![link][link]](/code/matrix/set-matrix-zeroes.py)                                       |
+| 50  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                                    | ![matrix][matrix]           | ![medium][medium] | [![link][link]](/code/matrix/spiral-matrix.py)                                           |
+| 51  | [Rotate Image](https://leetcode.com/problems/rotate-image/)                                                                                                      | ![matrix][matrix]           | ![medium][medium] | [![link][link]](/code/matrix/rotate-image.py)                                            |
+| 52  | [Word Search](https://leetcode.com/problems/word-search/)                                                                                                        | ![matrix][matrix]           | ![medium][medium] | [![link][link]](/code/matrix/word-search.py)                                             |
+| 53  | [Clone Graph](https://leetcode.com/problems/clone-graph/)                                                                                                        | ![graph][graph]             | ![medium][medium] | [![link][link]](/code/graph/clone-graph.py)                                              |
+| 54  | [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                                                                | ![graph][graph]             | ![medium][medium] | [![link][link]](/code/graph/course-schedule.py)                                          |
+| 55  | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                                        | ![graph][graph]             | ![medium][medium] | [![link][link]](/code/graph/pacific-atlantic-water-flow.py)                              |
+| 56  | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                                            | ![graph][graph]             | ![medium][medium] | [![link][link]](/code/graph/number-of-islands.py)                                        |
+| 57  | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)                                                                      | ![graph][graph]             | ![medium][medium] | [![link][link]](/code/graph/longest-consecutive-sequence.py)                             |
+| 58  | [Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)                                                                           | ![graph][graph]             |                   |                                                                                          |
+| 59  | [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)                                                                           | ![graph][graph]             |                   |                                                                                          |
+| 60  | [Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | ![graph][graph]             |                   |                                                                                          |
+| 61  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                                                | ![dp][dp]                   | ![easy][easy]     | [![link][link]](/code/dp/climbing-stairs.py)                                             |
+| 62  | [Coin Change](https://leetcode.com/problems/coin-change/)                                                                                                        | ![dp][dp]                   | ![medium][medium] | [![link][link]](/code/dp/coin-change.py)                                                 |
+| 63  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                                                                  | ![dp][dp]                   | ![medium][medium] | [![link][link]](/code/dp/longest-increasing-subsequence.py)                              |
+| 64  | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                          | ![dp][dp]                   | ![medium][medium] | [![link][link]](/code/dp/longest-common-subsequence.py)                                  |
+| 65  | [Word Break](https://leetcode.com/problems/word-break/)                                                                                                          | ![dp][dp]                   | ![medium][medium] | [![link][link]](/code/dp/word-break.py)                                                  |
+| 66  | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                                                                                          | ![dp][dp]                   | ![medium][medium] | [![link][link]](/code/dp/combination-sum-iv.py)                                          |
+| 67  | [House Robber](https://leetcode.com/problems/house-robber/)                                                                                                      | ![dp][dp]                   | ![medium][medium] | [![link][link]](/code/dp/house-robber.py)                                                |
+| 68  | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                                                                                                | ![dp][dp]                   | ![medium][medium] | [![link][link]](/code/dp/house-robber-ii.py)                                             |
+| 69  | [Decode Ways](https://leetcode.com/problems/decode-ways/)                                                                                                        | ![dp][dp]                   | ![medium][medium] | [![link][link]](/code/dp/decode-ways.py)                                                 |
+| 70  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                                      | ![dp][dp]                   | ![medium][medium] | [![link][link]](/code/dp/unique-paths.py)                                                |
+| 71  | [Jump Game](https://leetcode.com/problems/jump-game/)                                                                                                            | ![dp][dp]                   | ![medium][medium] | [![link][link]](/code/dp/jump-game.py)                                                   |
+| 72  | [Insert Interval](https://leetcode.com/problems/insert-interval/)                                                                                                | ![interval][interval]       | ![medium][medium] | [![link][link]](/code/interval/insert-interval.py)                                       |
+| 73  | [Merge Intervals](https://leetcode.com/problems/merge-intervals/)                                                                                                | ![interval][interval]       | ![medium][medium] | [![link][link]](/code/interval/merge-intervals.py)                                       |
+| 74  | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)                                                                            | ![interval][interval]       | ![medium][medium] | [![link][link]](/code/interval/non-overlapping-intervals.py)                             |
+| 75  | [Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)                                                                                 | ![interval][interval]       |                   |                                                                                          |
+| 76  | [Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)                                                                           | ![interval][interval]       |                   |                                                                                          |
 
 
-### Medium
+## seanprashad / leetcode-patterns
 
-| Problem                                                                          | Category                                | My Solution                                     | Source Code                                     |
-| -------------------------------------------------------------------------------- | --------------------------------------- | ----------------------------------------------- | ----------------------------------------------- |
-| [Product of Array Except Self][p-product-of-array-except-self]                   | `Arrays`                                | [Link][d-product-of-array-except-self]          | [Link][c-product-of-array-except-self]          |
-| [Find the Duplicate Number][p-find-the-duplicate-number]                         | `Arrays` \| `Two Pointers`              | [Link][d-find-the-duplicate-number]             | [Link][c-find-the-duplicate-number]             |
-| [Find All Duplicates in an Array][p-find-all-duplicates-in-an-array]             | `Arrays`                                | [Link][d-find-all-duplicates-in-an-array]       | [Link][c-find-all-duplicates-in-an-array]       |
-| [Set Matrix Zeroes][p-set-matrix-zeroes]                                         | `Arrays`                                | [Link][d-set-matrix-zeroes]                     | [Link][c-set-matrix-zeroes]                     |
-| [Spiral Matrix][p-spiral-matrix]                                                 | `Arrays`                                | [Link][d-spiral-matrix]                         | [Link][c-spiral-matrix]                         |
-| [Rotate Image][p-rotate-image]                                                   | `Arrays`                                | [Link][d-rotate-image]                          | [Link][c-rotate-image]                          |
-| [Longest Consecutive Sequence][p-longest-consecutive-sequence]                   | `Arrays`                                | [Link][d-longest-consecutive-sequence]          | [Link][c-longest-consecutive-sequence]          |
-| [Letter Case Permutation][p-letter-case-permutation]                             | `Backtracking`                          | [Link][d-letter-case-permutation]               | [Link][c-letter-case-permutation]               |
-| [Subsets][p-subsets]                                                             | `Backtracking`                          | [Link][d-subsets]                               | [Link][c-subsets]                               |
-| [Subsets II][p-subsets-ii]                                                       | `Backtracking`                          | [Link][d-subsets-ii]                            | [Link][c-subsets-ii]                            |
-| [Combination Sum][p-combination-sum]                                             | `Backtracking`                          | [Link][d-combination-sum]                       | [Link][c-combination-sum]                       |
-| [Combination Sum II][p-combination-sum-ii]                                       | `Backtracking`                          | [Link][d-combination-sum-ii]                    | [Link][c-combination-sum-ii]                    |
-| [Combination Sum III][p-combination-sum-iii]                                     | `Backtracking`                          | [Link][d-combination-sum-iii]                   | [Link][c-combination-sum-iii]                   |
-| [Generate Parentheses][p-generate-parentheses]                                   | `Backtracking`                          | [Link][d-generate-parentheses]                  | [Link][c-generate-parentheses]                  |
-| [Target Sum][p-target-sum]                                                       | `Backtracking` \| `Dynamic Programming` | [Link][d-target-sum]                            | [Link][c-target-sum]                            |
-| [Palindrome Partitioning][p-palindrome-partitioning]                             | `Backtracking`                          | [Link][d-palindrome-partitioning]               | [Link][c-palindrome-partitioning]               |
-| [Letter Combinations of a Phone Number][p-letter-combinations-of-a-phone-number] | `Backtracking`                          | [Link][d-letter-combinations-of-a-phone-number] | [Link][c-letter-combinations-of-a-phone-number] |
-| [House Robber][p-house-robber]                                                   | `Dynamic Programming`                   | [Link][d-house-robber]                          | [Link][c-house-robber]                          |
+
 
 ---
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
@@ -149,6 +183,9 @@ Reach out to the maintainer at one of the following places:
 
 ## Acknowledgements
 
+😊 Thanks to:
+
+* [Blind 75 LeetCode Questions](https://techinterviewhandbook.org/best-practice-questions/)
 * [seanprashad / leetcode-patterns](https://github.com/SeanPrashad/leetcode-patterns)
 
 
@@ -163,161 +200,3 @@ Reach out to the maintainer at one of the following places:
 [pr-welcome-shield]: https://shields.io/badge/PRs-Welcome-ff69b4?style=for-the-badge
 [author-shield]: https://shields.io/badge/Made_with_%E2%9D%A4_by-windsuzu-F4A92F?style=for-the-badge
 [author-url]: https://github.com/windsuzu
-
-
-<!-- Problem Ref -->
-[p-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/
-[p-missing-number]: https://leetcode.com/problems/missing-number/
-[p-find-all-numbers-disappeared-in-an-array]: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
-[p-single-number]: https://leetcode.com/problems/single-number/
-[p-climbing-stairs]: https://leetcode.com/problems/climbing-stairs/
-[p-best-time-to-buy-and-sell-stock]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-[p-maximum-subarray]: https://leetcode.com/problems/maximum-subarray/
-[p-range-sum-query]: https://leetcode.com/problems/range-sum-query-immutable/
-[p-counting-bits]: https://leetcode.com/problems/counting-bits/
-[p-linked-list-cycle]: https://leetcode.com/problems/linked-list-cycle/
-[p-middle-of-the-linked-list]: https://leetcode.com/problems/middle-of-the-linked-list/
-[p-palindrome-linked-list]: https://leetcode.com/problems/palindrome-linked-list/
-[p-remove-linked-list-elements]: https://leetcode.com/problems/remove-linked-list-elements/
-[p-remove-duplicates-from-sorted-list]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
-[p-reverse-linked-list]: https://leetcode.com/problems/reverse-linked-list/
-[p-merge-two-sorted-lists]: https://leetcode.com/problems/merge-two-sorted-lists/
-[p-binary-search]: https://leetcode.com/problems/binary-search/
-[p-find-smallest-letter-greater-than-target]: https://leetcode.com/problems/find-smallest-letter-greater-than-target
-[p-peak-index-in-a-mountain-array]: https://leetcode.com/problems/peak-index-in-a-mountain-array/
-[p-average-of-levels-in-binary-tree]: https://leetcode.com/problems/average-of-levels-in-binary-tree/
-[p-minimum-depth-of-binary-tree]: https://leetcode.com/problems/minimum-depth-of-binary-tree/
-[p-same-tree]: https://leetcode.com/problems/same-tree/
-[p-path-sum]: https://leetcode.com/problems/path-sum/
-[p-diameter-of-binary-tree]: https://leetcode.com/problems/diameter-of-binary-tree/
-[p-merge-two-binary-trees]: https://leetcode.com/problems/merge-two-binary-trees/
-[p-maximum-depth-of-binary-tree]: https://leetcode.com/problems/maximum-depth-of-binary-tree/
-[p-lowest-common-ancestor-of-a-binary-search-tree]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
-[p-subtree-of-another-tree]: https://leetcode.com/problems/subtree-of-another-tree
-[p-invert-binary-tree]: https://leetcode.com/problems/invert-binary-tree/
-[p-two-sum]: https://leetcode.com/problems/two-sum/
-[p-squares-of-a-sorted-array]: https://leetcode.com/problems/squares-of-a-sorted-array/
-[p-majority-element]: https://leetcode.com/problems/majority-element/
-[p-product-of-array-except-self]: https://leetcode.com/problems/product-of-array-except-self/
-[p-find-the-duplicate-number]: https://leetcode.com/problems/find-the-duplicate-number/
-[p-find-all-duplicates-in-an-array]: https://leetcode.com/problems/find-all-duplicates-in-an-array/
-[p-set-matrix-zeroes]: https://leetcode.com/problems/set-matrix-zeroes/
-[p-spiral-matrix]: https://leetcode.com/problems/spiral-matrix/
-[p-rotate-image]: https://leetcode.com/problems/rotate-image/
-[p-longest-consecutive-sequence]: https://leetcode.com/problems/longest-consecutive-sequence/
-[p-letter-case-permutation]: https://leetcode.com/problems/letter-case-permutation/
-[p-subsets]: https://leetcode.com/problems/subsets/
-[p-subsets-ii]: https://leetcode.com/problems/subsets-ii/
-[p-combination-sum]: https://leetcode.com/problems/combination-sum/
-[p-combination-sum-ii]: https://leetcode.com/problems/combination-sum-ii/
-[p-combination-sum-iii]: https://leetcode.com/problems/combination-sum-iii/
-[p-generate-parentheses]: https://leetcode.com/problems/generate-parentheses/
-[p-target-sum]: https://leetcode.com/problems/target-sum/
-[p-palindrome-partitioning]: https://leetcode.com/problems/palindrome-partitioning/
-[p-letter-combinations-of-a-phone-number]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
-[p-house-robber]: https://leetcode.com/problems/house-robber/
-
-
-<!-- Discuss Ref -->
-[d-contains-duplicate]: https://leetcode.com/problems/contains-duplicate/discuss/1382394/Python-3-or-Compare-the-size!
-[d-missing-number]: https://leetcode.com/problems/missing-number/discuss/1382390/Python-3-or-O(1)-space-or-O(n)-time
-[d-find-all-numbers-disappeared-in-an-array]: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/discuss/1384686/Python-3-or-Easy-Solution-using-Set
-[d-single-number]: https://leetcode.com/problems/single-number/discuss/1387175/Python-3-or-XOR-Explanation
-[d-climbing-stairs]: https://leetcode.com/problems/climbing-stairs/discuss/1388999/Python-3-or-Dynamic-Programming
-[d-best-time-to-buy-and-sell-stock]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/discuss/1391460/Python-3-or-KEEP-the-lowest-and-COMPARE-the-profit-!
-[d-maximum-subarray]: https://leetcode.com/problems/maximum-subarray/discuss/1392524/Python-3-or-O(n)-Time-or-O(1)-Space
-[d-range-sum-query]: https://leetcode.com/problems/range-sum-query-immutable/discuss/1394672/Python-3-or-Cumulative-Sum
-[d-counting-bits]: https://leetcode.com/problems/counting-bits/discuss/1396851/Python-3-or-99-Faster-or-91-Less-Memory
-[d-linked-list-cycle]: https://leetcode.com/problems/linked-list-cycle/discuss/1398839/Python-3-or-Assign-numbers
-[d-middle-of-the-linked-list]: https://leetcode.com/problems/middle-of-the-linked-list/discuss/1400749/Python-3-or-Two-Pointers
-[d-palindrome-linked-list]: https://leetcode.com/problems/palindrome-linked-list/discuss/1402628/Python-3-or-Traverse-but-with-Generator-and-List-Comprehension
-[d-remove-linked-list-elements]: https://leetcode.com/problems/remove-linked-list-elements/discuss/1404517/Python-3
-[d-remove-duplicates-from-sorted-list]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/discuss/1406407/Python-3-or-Connect-distinct-nodes
-[d-reverse-linked-list]: https://leetcode.com/problems/reverse-linked-list/discuss/1408600/Python-3-or-Stacking-on-top
-[d-merge-two-sorted-lists]: https://leetcode.com/problems/merge-two-sorted-lists/discuss/1410592/Python-3-or-Iterative
-[d-binary-search]: https://leetcode.com/problems/binary-search/discuss/1412936/Python-3
-[d-find-smallest-letter-greater-than-target]: https://leetcode.com/problems/find-smallest-letter-greater-than-target/discuss/1415083/Python-3-or-ASCII-and-Loop
-[d-peak-index-in-a-mountain-array]: https://leetcode.com/problems/peak-index-in-a-mountain-array/discuss/1417139/Python-3-or-Binary-Search
-[d-average-of-levels-in-binary-tree]: https://leetcode.com/problems/average-of-levels-in-binary-tree/discuss/1419598/Python-3-or-BFS-or-99.97-faster
-[d-minimum-depth-of-binary-tree]: https://leetcode.com/problems/minimum-depth-of-binary-tree/discuss/1421461/Python-3-or-BFS-or-Iterative
-[d-same-tree]: https://leetcode.com/problems/same-tree/discuss/1422581/Python-3-or-Iterative-or-BFS
-[d-path-sum]: https://leetcode.com/problems/path-sum/discuss/1425031/Python-3-or-BFS-or-Iterative
-[d-diameter-of-binary-tree]: https://leetcode.com/problems/diameter-of-binary-tree/discuss/1427361/Python-3-or-DFS
-[d-merge-two-binary-trees]: https://leetcode.com/problems/merge-two-binary-trees/discuss/1434844/Python-3-or-DFS
-[d-maximum-depth-of-binary-tree]: https://leetcode.com/problems/maximum-depth-of-binary-tree/discuss/1436076/Python-3-or-BFS-or-No-recursive
-[d-lowest-common-ancestor-of-a-binary-search-tree]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/discuss/1438026/Python-3-or-Utilizing-the-feature-of-BST
-[d-subtree-of-another-tree]: https://leetcode.com/problems/subtree-of-another-tree/discuss/1440266/Python-3-or-Recursive
-[d-invert-binary-tree]: https://leetcode.com/problems/invert-binary-tree/discuss/1441714/Python-3-or-Recursive
-[d-two-sum]: https://leetcode.com/problems/two-sum/discuss/1443400/Python-3or-Dictionary-or-O(n)
-[d-squares-of-a-sorted-array]: https://leetcode.com/problems/squares-of-a-sorted-array/discuss/1447790/Python-3-or-2-Methods-or-Sorted-or-Two-Pointers
-[d-majority-element]: https://leetcode.com/problems/majority-element/discuss/1451480/Python-3-or-Counter-or-One-liner
-[d-product-of-array-except-self]: https://leetcode.com/problems/product-of-array-except-self/discuss/1451640/Python-3-or-Forward-and-Backward
-[d-find-the-duplicate-number]: https://leetcode.com/problems/find-the-duplicate-number/discuss/1454113/Python-3-or-Cycle-Detection
-[d-find-all-duplicates-in-an-array]: https://leetcode.com/problems/find-all-duplicates-in-an-array/discuss/1458918/Python-3-or-Sort
-[d-set-matrix-zeroes]: https://leetcode.com/problems/set-matrix-zeroes/discuss/1459067/Python-3-or-Two-Sets
-[d-spiral-matrix]: https://leetcode.com/problems/spiral-matrix/discuss/1460477/python-3-simulation
-[d-rotate-image]: https://leetcode.com/problems/rotate-image/discuss/1462730/Python-3-or-Swap-4-Elements
-[d-longest-consecutive-sequence]: https://leetcode.com/problems/longest-consecutive-sequence/discuss/1468237/Python-3-or-Sort
-[d-letter-case-permutation]: https://leetcode.com/problems/letter-case-permutation/discuss/1470638/Python-3-or-Bottom-Up
-[d-subsets]: https://leetcode.com/problems/subsets/discuss/1470698/python-3-combinations-one-liner
-[d-subsets-ii]: https://leetcode.com/problems/subsets-ii/discuss/1474348/Python-3-or-Combinations-%2B-Sorted-%2B-Set-or-One-liner
-[d-combination-sum]: https://leetcode.com/problems/combination-sum/discuss/1478562/Python-3-or-Brute-Force-or-DFS
-[d-combination-sum-ii]: https://leetcode.com/problems/combination-sum-ii/discuss/1495153/Python-3-or-Backtracking-or-Avoid-Duplicates
-[d-combination-sum-iii]: https://leetcode.com/problems/combination-sum-iii/discuss/1496784/Python-3-or-BackTracking-or-Combinations
-[d-generate-parentheses]: https://leetcode.com/problems/generate-parentheses/discuss/1501229/Python-3-or-BackTracking-or-Left-and-Right
-[d-target-sum]: https://leetcode.com/problems/target-sum/discuss/1504323/Python-3-or-Backtracking-or-Memoization
-[d-palindrome-partitioning]: https://leetcode.com/problems/palindrome-partitioning/discuss/1508574/Python-3-or-Backtracking
-[d-letter-combinations-of-a-phone-number]: https://leetcode.com/problems/letter-combinations-of-a-phone-number/discuss/1511593/Python-3-or-Two-Solutions-or-Product-or-Backtracking
-[d-house-robber]: https://leetcode.com/problems/house-robber/discuss/1517604/Python-3-or-DP-or-deque
-
-<!-- Code Ref -->
-[c-contains-duplicate]: easy/contains-duplicate.py
-[c-missing-number]: easy/missing-number.py
-[c-find-all-numbers-disappeared-in-an-array]: easy/find-all-numbers-disappeared-in-an-array.py
-[c-single-number]: easy/single-number.py
-[c-climbing-stairs]: easy/climbing-stairs.py
-[c-best-time-to-buy-and-sell-stock]: easy/best-time-to-buy-and-sell-stock.py
-[c-maximum-subarray]: easy/maximum-subarray.py
-[c-range-sum-query]: easy/range_sum_query-immutable.py
-[c-counting-bits]: easy/counting-bits.py
-[c-linked-list-cycle]: easy/linked-list-cycle.py
-[c-middle-of-the-linked-list]: easy/middle-of-the-linked-list.py
-[c-palindrome-linked-list]: easy/palindrome-linked-list.py
-[c-remove-linked-list-elements]: easy/remove-linked-list-elements.py
-[c-remove-duplicates-from-sorted-list]: easy/remove-duplicates-from-sorted-list.py
-[c-reverse-linked-list]: easy/reverse-linked-list.py
-[c-merge-two-sorted-lists]: easy/merge-two-sorted-lists.py
-[c-binary-search]: easy/binary-search.py
-[c-find-smallest-letter-greater-than-target]: easy/find-smallest-letter-greater-than-target.py
-[c-peak-index-in-a-mountain-array]: easy/peak-index-in-a-mountain-array.py
-[c-average-of-levels-in-binary-tree]: easy/average-of-levels-in-binary-tree.py
-[c-minimum-depth-of-binary-tree]: easy/minimum-depth-of-binary-tree.py
-[c-same-tree]: easy/same-tree.py
-[c-path-sum]: easy/path-sum.py
-[c-diameter-of-binary-tree]: easy/diameter-of-binary-tree.py
-[c-merge-two-binary-trees]: easy/merge-two-binary-trees.py
-[c-maximum-depth-of-binary-tree]: easy/maximum-depth-of-binary-tree.py
-[c-lowest-common-ancestor-of-a-binary-search-tree]: easy/lowest-common-ancestor-of-a-binary-search-tree.py
-[c-subtree-of-another-tree]: easy/subtree-of-another-tree.py
-[c-invert-binary-tree]: easy/invert-binary-tree.py
-[c-two-sum]: easy/two-sum.py
-[c-squares-of-a-sorted-array]: easy/squares-of-a-sorted-array.py
-[c-majority-element]: easy/majority-element.py
-[c-product-of-array-except-self]: medium/product-of-array-except-self.py
-[c-find-the-duplicate-number]: medium/find-the-duplicate-number.py
-[c-find-all-duplicates-in-an-array]: medium/find-all-duplicates-in-an-array.py
-[c-set-matrix-zeroes]: medium/set-matrix-zeroes.py
-[c-spiral-matrix]: medium/spiral-matrix.py
-[c-rotate-image]: medium/rotate-image.py
-[c-longest-consecutive-sequence]: medium/longest-consecutive-sequence.py
-[c-letter-case-permutation]: medium/letter-case-permutation.py
-[c-subsets]: medium/subsets.py
-[c-subsets-ii]: medium/subsets-ii.py
-[c-combination-sum]: medium/combination-sum.py
-[c-combination-sum-ii]: medium/combination-sum-ii.py
-[c-combination-sum-iii]: medium/combination-sum-iii.py
-[c-generate-parentheses]: medium/generate-parentheses.py
-[c-target-sum]: medium/target-sum.py
-[c-palindrome-partitioning]: medium/palindrome-partitioning.py
-[c-letter-combinations-of-a-phone-number]: medium/letter-combinations-of-a-phone-number.py
-[c-house-robber]: medium/house-robber.py
