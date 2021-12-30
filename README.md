@@ -75,6 +75,7 @@ Below are the problem spreadsheets that I have completed or currently working on
 [graph]: https://img.shields.io/badge/-graph-838d9c?style=for-the-badge
 [dp]: https://img.shields.io/badge/-dp-9869c4?style=for-the-badge
 [interval]: https://img.shields.io/badge/-interval-6b254b?style=for-the-badge
+[binary]: https://img.shields.io/badge/-binary_search-df1e76?style=for-the-badge
 
 <!-- Others -->
 [Link]: https://img.shields.io/badge/-link-6ebbcb?style=for-the-badge
@@ -165,6 +166,28 @@ Below are the problem spreadsheets that I have completed or currently working on
 
 ## seanprashad / leetcode-patterns
 
+I removed the problems that I have solved in "Blind 75" spreadsheet.
+
+| Id  | Problem                                  | Pattern                     | Difficulty    | Solution                                                                        |
+| --- | ---------------------------------------- | --------------------------- | ------------- | ------------------------------------------------------------------------------- |
+| 1   | Find All Numbers Disappeared in an Array | ![array][array]             | ![easy][easy] | [![link][link]](code/array/find-all-numbers-disappeared-in-an-array.py)         |
+| 2   | Single Number                            | ![array][array]             | ![easy][easy] | [![link][link]](code/array/single-number.py)                                    |
+| 3   | Range Sum Query - Immutable              | ![array][array]             | ![easy][easy] | [![link][link]](code/array/range-sum-query-immutable.py)                        |
+| 4   | Majority Element                         | ![array][array]             | ![easy][easy] | [![link][link]](code/array/majority-element.py)                                 |
+| 5   | Squares of a Sorted Array                | ![array][array]             | ![easy][easy] | [![link][link]](code/array/squares-of-a-sorted-array.py)                        |
+| 6   | Middle of the Linked List                | ![linked-list][linked-list] | ![easy][easy] | [![link][link]](code/linked-list/middle-of-the-linked-list.py)                  |
+| 7   | Palindrome Linked List                   | ![linked-list][linked-list] | ![easy][easy] | [![link][link]](code/linked-list/palindrome-linked-list.py)                     |
+| 8   | Remove Linked List Elements              | ![linked-list][linked-list] | ![easy][easy] | [![link][link]](code/linked-list/remove-linked-list-elements.py)                |
+| 9   | Remove Duplicates from Sorted List       | ![linked-list][linked-list] | ![easy][easy] | [![link][link]](code/linked-list/remove-duplicates-from-sorted-list.py)         |
+| 10  | Binary Search                            | ![binary][binary]           | ![easy][easy] | [![link][link]](code/binary-search/binary-search.py)                            |
+| 11  | Find Smallest Letter Greater Than Target | ![binary][binary]           | ![easy][easy] | [![link][link]](code/binary-search/find-smallest-letter-greater-than-target.py) |
+| 12  | Peak Index in a Mountain Array           | ![binary][binary]           | ![easy][easy] | [![link][link]](code/binary-search/peak-index-in-a-mountain-array.py)           |
+| 13  | Average of Levels in Binary Tree         | ![tree][tree]               | ![easy][easy] | [![link][link]](code/tree/average-of-levels-in-binary-tree.py)                  |
+| 14  | Minimum Depth of Binary Tree             | ![tree][tree]               | ![easy][easy] | [![link][link]](code/tree/minimum-depth-of-binary-tree.py)                      |
+| 15  | Path Sum                                 | ![tree][tree]               | ![easy][easy] | [![link][link]](code/tree/path-sum.py)                                          |
+| 16  | Diameter of Binary Tree                  | ![tree][tree]               | ![easy][easy] | [![link][link]](code/tree/diameter-of-binary-tree.py)                           |
+| 17  | Merge Two Binary Trees                   | ![tree][tree]               | ![easy][easy] | [![link][link]](code/tree/merge-two-binary-trees.py)                            |
+| 18  | Backspace String Compare                 | ![string][string]           | ![easy][easy] | [![link][link]](code/string/backspace-string-compare.py)                        |
 
 
 ---
